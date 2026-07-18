@@ -15,10 +15,16 @@ SQL keywords are NOT case sensitive: select is the same as SELECT
 A SQL query refers to a block of code that defines what data you’d like to pull from your database. For data analysts, this is generally the start of any analysis. Here is a basic SQL query breakdown:
 
 SELECT: Defines columns/fields to pull | To select ALL columns, without specifying every column name, use the SELECT * syntax
+  The SELECT DISTINCT statement is used to return only distinct (unique) values.// SELECT DISTINCT Country FROM Customers;
+  In a table, a column may contain several duplicate values - and sometimes you want to list only the unique values.
+  By using the COUNT() function with the DISTINCT keyword, we can count the number of unique countries.// SELECT COUNT(DISTINCT Country) FROM Customers;
 
 FROM: Specifies table(s) to pull from
 
 WHERE: Filters data on a condition (or conditions)
+  The WHERE clause is used to filter records.
+  The WHERE clause is used to extract only those records that fulfill a specific condition. //SELECT * FROM Customers WHERE Country = 'Mexico';
+  The WHERE clause is not only used in SELECT statements, it is also used in UPDATE, DELETE, etc.
 
 GROUP BY: Group rows based on one or more columns
 
