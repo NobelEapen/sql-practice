@@ -14,7 +14,7 @@ SQL keywords are NOT case sensitive: select is the same as SELECT
 
 A SQL query refers to a block of code that defines what data you’d like to pull from your database. For data analysts, this is generally the start of any analysis. Here is a basic SQL query breakdown:
 
-SELECT: Defines columns/fields to pull
+SELECT: Defines columns/fields to pull | To select ALL columns, without specifying every column name, use the SELECT * syntax
 
 FROM: Specifies table(s) to pull from
 
@@ -25,3 +25,14 @@ GROUP BY: Group rows based on one or more columns
 ORDER BY: Define sort order
 
 LIMIT: Limit the total number of records returned
+
+UPDATE - updates data in a database
+DELETE - deletes data from a database
+INSERT INTO - inserts new data into a database
+CREATE DATABASE - creates a new database
+ALTER DATABASE - modifies a database
+CREATE TABLE - creates a new table
+ALTER TABLE - modifies a table
+DROP TABLE - deletes a table
+CREATE INDEX - creates an index (search key)
+DROP INDEX - deletes an index
