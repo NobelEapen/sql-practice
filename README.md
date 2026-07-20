@@ -27,18 +27,18 @@ A SQL query refers to a block of code that defines what data you’d like to pul
   The WHERE clause is not only used in SELECT statements, it is also used in UPDATE, DELETE, etc.
 
 **GROUP BY**: Group rows based on one or more columns
-The ORDER BY keyword is used to sort the result-set in ascending or descending order.
-The ORDER BY keyword sorts the result-set in ascending order (ASC) by default.
-Sort the products from lowest to highest price // SELECT * FROM Products ORDER BY Price;
+  The ORDER BY keyword is used to sort the result-set in ascending or descending order.
+  The ORDER BY keyword sorts the result-set in ascending order (ASC) by default.
+  Sort the products from lowest to highest price // SELECT * FROM Products ORDER BY Price;
 
 **ORDER BY**: Define sort order
-The ORDER BY keyword is used to sort the result-set in ascending or descending order.
-The ORDER BY keyword sorts the result-set in ascending order (ASC) by default.
-Sort the products from lowest to highest price// SELECT * FROM Products  ORDER BY Price;
+  The ORDER BY keyword is used to sort the result-set in ascending or descending order.
+  The ORDER BY keyword sorts the result-set in ascending order (ASC) by default.
+  Sort the products from lowest to highest price// SELECT * FROM Products  ORDER BY Price;
+  To sort the records in descending order, use the **DESC** keyword.
+  Sort the products from highest to lowest price// SELECT * FROM Products ORDER BY Price DESC;
 
-
-
-LIMIT: Limit the total number of records returned
+**LIMIT**: Limit the total number of records returned
 
 UPDATE - updates data in a database
 DELETE - deletes data from a database
