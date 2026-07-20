@@ -31,7 +31,12 @@ The ORDER BY keyword is used to sort the result-set in ascending or descending o
 The ORDER BY keyword sorts the result-set in ascending order (ASC) by default.
 Sort the products from lowest to highest price // SELECT * FROM Products ORDER BY Price;
 
-ORDER BY: Define sort order
+**ORDER BY**: Define sort order
+The ORDER BY keyword is used to sort the result-set in ascending or descending order.
+The ORDER BY keyword sorts the result-set in ascending order (ASC) by default.
+Sort the products from lowest to highest price// SELECT * FROM Products  ORDER BY Price;
+
+
 
 LIMIT: Limit the total number of records returned
 
