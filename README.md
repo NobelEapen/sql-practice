@@ -40,7 +40,13 @@ A SQL query refers to a block of code that defines what data you’d like to pul
   Sort the products from lowest to highest price// SELECT * FROM Products  ORDER BY Price;
   To sort the records in descending order, use the **DESC** keyword.
   Sort the products from highest to lowest price// SELECT * FROM Products ORDER BY Price DESC;
+  Select all Spanish customers that starts with either "G" or "R" // SELECT * FROM Customers WHERE Country = 'Spain' AND (CustomerName LIKE 'G%' OR CustomerName     LIKE 'R%');
+  Without parenthesis, the SQL above will return all customers from Spain that starts with a "G", plus all customers that starts with an "R", regardless of the     country value // SELECT * FROM Customers WHERE Country = 'Spain' AND CustomerName LIKE 'G%' OR CustomerName LIKE 'R%';
 
+
+
+
+  
 **LIMIT**: Limit the total number of records returned
 
 UPDATE - updates data in a database
