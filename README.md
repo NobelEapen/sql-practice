@@ -25,6 +25,9 @@ A SQL query refers to a block of code that defines what data you’d like to pul
   The WHERE clause is used to filter records.
   The WHERE clause is used to extract only those records that fulfill a specific condition. //SELECT * FROM Customers WHERE Country = 'Mexico';
   The WHERE clause is not only used in SELECT statements, it is also used in UPDATE, DELETE, etc.
+  The WHERE clause can contain one or many AND operators.
+  The AND operator is used to filter records based on more than one condition.
+  **Note**: The AND operator displays a record if all the conditions are TRUE.
 
 **GROUP BY**: Group rows based on one or more columns
   The ORDER BY keyword is used to sort the result-set in ascending or descending order.
