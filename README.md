@@ -28,6 +28,9 @@ A SQL query refers to a block of code that defines what data you’d like to pul
   The WHERE clause can contain one or many AND operators.
   The AND operator is used to filter records based on more than one condition.
   **Note**: The AND operator displays a record if all the conditions are TRUE.
+  The NOT operator is used in the WHERE clause to return all records that DO NOT match the specified criteria. It reverses the result of a condition from true to    false and vice-versa.
+  The following SQL selects all customers that are NOT from Spain:
+  Select only the customers that are NOT from Spain // SELECT * FROM Customers WHERE NOT Country = 'Spain';
 
 **GROUP BY**: Group rows based on one or more columns
   The ORDER BY keyword is used to sort the result-set in ascending or descending order.
@@ -41,7 +44,7 @@ A SQL query refers to a block of code that defines what data you’d like to pul
   To sort the records in descending order, use the **DESC** keyword.
   Sort the products from highest to lowest price// SELECT * FROM Products ORDER BY Price DESC;
   Select all Spanish customers that starts with either "G" or "R" // SELECT * FROM Customers WHERE Country = 'Spain' AND (CustomerName LIKE 'G%' OR CustomerName     LIKE 'R%');
-  Without parenthesis, the SQL above will return all customers from Spain that starts with a "G", plus all customers that starts with an "R", regardless of the     country value // SELECT * FROM Customers WHERE Country = 'Spain' AND CustomerName LIKE 'G%' OR CustomerName LIKE 'R%';
+  Without parenthesis, the SQL above will return all customers from Spain that starts with a "G", plus all customers that starts with an "R", regardless of the      country value // SELECT * FROM Customers WHERE Country = 'Spain' AND CustomerName LIKE 'G%' OR CustomerName LIKE 'R%';
 
 
 
