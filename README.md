@@ -31,7 +31,16 @@ A SQL query refers to a block of code that defines what data you’d like to pul
   The NOT operator is used in the WHERE clause to return all records that DO NOT match the specified criteria. It reverses the result of a condition from true to    false and vice-versa.
   The following SQL selects all customers that are NOT from Spain:
   Select only the customers that are NOT from Spain // SELECT * FROM Customers WHERE NOT Country = 'Spain';
+  The NOT operator is also used in combination with other operators to exclude data, such as:
+  NOT LIKE
+  NOT BETWEEN
+  NOT IN
+  IS NOT NULL
+  NOT EXISTS
 
+
+
+  
 **GROUP BY**: Group rows based on one or more columns
   The ORDER BY keyword is used to sort the result-set in ascending or descending order.
   The ORDER BY keyword sorts the result-set in ascending order (ASC) by default.
