@@ -57,11 +57,6 @@ The following SQL selects all customers with a CustomerID not greater than 50 //
 5) The "NOT Less Than" condition is expressed with the NOT operator in conjunction with the standard less than or equal to (<=) operator.
 The following SQL selects all customers with a CustomerID not less than 50 // SELECT * FROM Customers WHERE NOT CustomerId < 50;
 
-
-
-
-
-
 **GROUP BY**: Group rows based on one or more columns
   The ORDER BY keyword is used to sort the result-set in ascending or descending order.
   The ORDER BY keyword sorts the result-set in ascending order (ASC) by default.
