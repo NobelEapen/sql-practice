@@ -44,8 +44,13 @@ There are two wildcards often used in conjunction with the NOT LIKE operator:
 The NOT BETWEEN operator is used in the WHERE clause to select rows where a value falls outside a specified inclusive range.
 The NOT BETWEEN operator can be used with numeric, text, or date values.
 The following SQL selects all customers with a CustomerID NOT between 10 and 60// SELECT * FROM Customers WHERE CustomerID NOT BETWEEN 10 AND 60;
+The NOT IN operator is used in the WHERE clause to exclude rows that match any value in a specified list or a subquery result set.
+The following SQL selects all customers with City NOT IN "Paris" or "London"// SELECT * FROM Customers WHERE City NOT IN ('Paris', 'London');
 
-  
+
+
+
+
 **GROUP BY**: Group rows based on one or more columns
   The ORDER BY keyword is used to sort the result-set in ascending or descending order.
   The ORDER BY keyword sorts the result-set in ascending order (ASC) by default.
