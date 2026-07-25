@@ -37,7 +37,10 @@ A SQL query refers to a block of code that defines what data you’d like to pul
   NOT IN
   IS NOT NULL
   NOT EXISTS
-
+The NOT LIKE operator is used in the WHERE clause to exclude rows that match a specified character pattern.
+There are two wildcards often used in conjunction with the NOT LIKE operator:
+**A percent sign %**- represents zero, one, or multiple characters
+**A underscore sign _**- represents a single character
 
 
   
