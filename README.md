@@ -71,10 +71,18 @@ The following SQL selects all customers with a CustomerID not less than 50 // SE
   Select all Spanish customers that starts with either "G" or "R" // SELECT * FROM Customers WHERE Country = 'Spain' AND (CustomerName LIKE 'G%' OR CustomerName     LIKE 'R%');
   Without parenthesis, the SQL above will return all customers from Spain that starts with a "G", plus all customers that starts with an "R", regardless of the      country value // SELECT * FROM Customers WHERE Country = 'Spain' AND CustomerName LIKE 'G%' OR CustomerName LIKE 'R%';
 
+**The INSERT INTO** statement is used to insert new records in a table.
+It is possible to write the INSERT INTO statement in two ways:
 
+**Syntax 1:** Specify both the column names and the values to be inserted:
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
 
+**Syntax 2:** If you insert values for ALL the columns of the table, you can omit the column names.
+However, the order of the values must be in the same order as the columns in the table:
+INSERT INTO table_name
+VALUES (value1, value2, value3, ...);
 
-  
 **LIMIT**: Limit the total number of records returned
 
 UPDATE - updates data in a database
