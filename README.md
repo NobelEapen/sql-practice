@@ -83,6 +83,18 @@ However, the order of the values must be in the same order as the columns in the
 INSERT INTO table_name
 VALUES (value1, value2, value3, ...);
 
+Here we insert values for ALL the columns of the table, so we omit the column names.
+CustomerID	CustomerName	ContactName	Address	City	PostalCode	Country
+89	White Clover Markets	Karl Jablonski	305 - 14th Ave. S. Suite 3B	Seattle	98128	USA
+90  Wilman Kala	Matti Karttunen	Keskuskatu 45	Helsinki	21240	Finland
+91  Wolski	Zbyszek	ul. Filtrowa 68	Walla	01-012	Poland
+
+The following SQL inserts a new record in the "Customers" table:
+INSERT INTO Customers
+VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
+
+
+
 **LIMIT**: Limit the total number of records returned
 
 UPDATE - updates data in a database
