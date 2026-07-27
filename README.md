@@ -93,6 +93,17 @@ The following SQL inserts a new record in the "Customers" table:
 INSERT INTO Customers
 VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
 
+++Insert Data Only in Specific Columns++
+Here we insert values only in some specific columns of the table.
+The following SQL inserts a new record - but only inserts data in the "CustomerName", "City", and "Country" columns (CustomerID will be updated automatically):
+
+Example
+INSERT INTO Customers (CustomerName, City, Country)
+VALUES ('Cardinal', 'Stavanger', 'Norway');
+
+The last record in the "Customers" table will now look like this:
+CustomerID	CustomerName	ContactName	Address	City	PostalCode	Country
+92	Cardinal	null	null	Stavanger	null	Norway
 
 
 **LIMIT**: Limit the total number of records returned
