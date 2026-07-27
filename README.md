@@ -111,6 +111,22 @@ A NULL value represents an unknown, missing, or inapplicable data in a database 
 Note: A NULL value is different from zero (0) or an empty string (''). A field with a NULL value is one that has been left blank upon record creation.
 It is not possible to test for NULL values with comparison operators, such as =, <, or <>.
 We will have to use the IS NULL and IS NOT NULL operators instead.
+++The IS NULL Operator++
+The IS NULL operator is used to test for empty values (NULL values).
+The following SQL lists all customers with a NULL value in the "Address" field:
+Example
+SELECT CustomerName, ContactName, Address
+FROM Customers
+WHERE Address IS NULL;
+Tip: Always use IS NULL to look for NULL values.
+
+++The IS NOT NULL Operator++
+The IS NOT NULL operator is used to test for non-empty values (NOT NULL values).
+The following SQL lists all customers with a value in the "Address" field:
+Example
+SELECT CustomerName, ContactName, Address
+FROM Customers
+WHERE Address IS NOT NULL;
 
 
 
