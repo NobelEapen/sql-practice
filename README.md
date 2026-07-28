@@ -129,14 +129,25 @@ FROM Customers
 WHERE Address IS NOT NULL;
 
 **UPDATE** statement is used to update or modify one or more records in a table.
-
 UPDATE Syntax:
 UPDATE table_name
 SET column1 = value1, column2 = value2, ...
 WHERE condition;
 Note: Be careful when updating records in a table! Notice the WHERE clause in the UPDATE statement. The WHERE clause specifies which record(s) that should be updated. If you omit the WHERE clause, all records in the table will be updated!
+Before Table:
+CustomerID	CustomerName	ContactName	Address	City	PostalCode	Country
+1 Alfreds Futterkiste	Maria Anders	Obere Str. 57	Berlin	12209	Germany
+UPDATE Table
+The following SQL updates the record with CustomerID = 1, with a new contact person AND a new city.
+Example
+UPDATE Customers
+SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
+WHERE CustomerID = 1;
 
-
+The selection from the "Customers" table will now look like this:
+After Table:
+CustomerID	CustomerName	ContactName	Address	City	PostalCode	Country
+1 Alfreds Futterkiste	Alfred Schmidt	Obere Str. 57	Frankfurt	12209	Germany
 
 
 
