@@ -149,7 +149,34 @@ After Table:
 CustomerID	CustomerName	ContactName	Address	City	PostalCode	Country
 1 Alfreds Futterkiste	Alfred Schmidt	Obere Str. 57	Frankfurt	12209	Germany
 
+++UPDATE Multiple Records++
+The WHERE clause determines which records that will be updated.
+The following SQL will update the ContactName to "Juan" for ALL records where country is "Mexico":
 
+Example
+UPDATE Customers
+SET ContactName='Juan'
+WHERE Country='Mexico';
+
+The selection from the "Customers" table will now look like this:
+CustomerID	CustomerName	ContactName	Address	City	PostalCode	Country
+1 Alfreds Futterkiste	Alfred Schmidt	Obere Str. 57	Frankfurt	12209	Germany
+2	Ana Trujillo Emparedados y helados	Juan	Avda. de la Constitución 2222	México D.F.	05021	Mexico
+3	Antonio Moreno Taquería	Juan	Mataderos 2312	México D.F.	05023	Mexico
+4 Around the Horn	Thomas Hardy	120 Hanover Sq.	London	WA1 1DP	UK
+5	Berglunds snabbköp	Christina Berglund	Berguvsvägen 8	Luleå	S-958 22	Sweden
+
+//Update Warning//
+Be careful when updating records. If you omit the WHERE clause, ALL records will be updated!
+The following SQL will update the ContactName to "Juan" for ALL records:
+Example
+UPDATE Customers
+SET ContactName='Juan';
+
+The selection from the "Customers" table will now look like this:
+CustomerID	CustomerName	ContactName	Address	City	PostalCode	Country
+1 Alfreds Futterkiste	**Juan**	Obere Str. 57	Frankfurt	12209	Germany
+2	Ana Trujillo Emparedados y helados	**Juan**	Avda. de la Constitución 2222	México D.F.	05021	Mexico
 
 **LIMIT**: Limit the total number of records returned
 
