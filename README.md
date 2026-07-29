@@ -223,3 +223,5 @@ The following SQL selects only the first 3 records of the "Customers" table:
 Example
 Select only the first 3 records of the Customers table:
 SELECT TOP 3 * FROM Customers;
+Note: Not all database systems support the SELECT TOP clause. MySQL supports the LIMIT clause to select a limited number of records, while Oracle uses FETCH FIRST n ROWS ONLY.
+
