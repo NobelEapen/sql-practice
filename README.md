@@ -215,3 +215,11 @@ The following SQL drops the entire "Customers" table:
 Example
 Delete entire "Customers" table:
 DROP TABLE Customers;
+
+The SQL **SELECT TOP** Clause
+The SELECT TOP clause is used to limit the number of records to return.
+The SELECT TOP clause is useful on large tables with thousands of records. Returning a large number of records can impact performance.
+The following SQL selects only the first 3 records of the "Customers" table:
+Example
+Select only the first 3 records of the Customers table:
+SELECT TOP 3 * FROM Customers;
