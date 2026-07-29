@@ -206,4 +206,12 @@ DELETE FROM table_name;
 The following SQL deletes ALL records in the "Customers" table, without deleting the table:
 Example
 DELETE FROM Customers;
+Delete a Table
+To delete the table completely, use the DROP TABLE statement:
+Syntax
+DROP TABLE table_name;
 
+The following SQL drops the entire "Customers" table:
+Example
+Delete entire "Customers" table:
+DROP TABLE Customers;
