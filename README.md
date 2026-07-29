@@ -231,3 +231,10 @@ Example
 SELECT TOP 3 * FROM Customers
 WHERE Country = 'Germany';
 
+SELECT TOP and ORDER BY
+Add the ORDER BY keyword when you want to sort the result, and return the first 3 records of the sorted result.
+For SQL Server and MS Access:
+Example
+Sort the result reverse alphabetically by CustomerName, and return the first 3 records:
+SELECT TOP 3 * FROM Customers
+ORDER BY CustomerName DESC;
