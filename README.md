@@ -193,6 +193,7 @@ DROP TABLE - deletes a table
 DELETE Syntax:
 DELETE FROM table_name WHERE condition;
 Note: Be careful when deleting records in a table! Notice the WHERE clause in the DELETE statement. The WHERE clause specifies which record(s) should be deleted. If you omit the WHERE clause, all records in the table will be deleted!
-
-CREATE INDEX - creates an index (search key)
-DROP INDEX - deletes an index
+++SQL DELETE Example++
+The following SQL deletes the customer "Alfreds Futterkiste" from the "Customers" table:
+Example
+DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
