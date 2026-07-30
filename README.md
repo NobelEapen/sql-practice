@@ -278,3 +278,19 @@ Example
 SELECT MIN(BirthDate) AS EarliestBirthdate
 FROM Employees;
 
+2) The SQL MAX() Function
+The MAX() function returns the largest value of the selected column.
+The MAX() function works with numeric, string, and date data types.
+
+MAX Example
+Return the highest price in the Price column, in the "Products" table:
+SELECT MAX(Price)
+FROM Products;
+
+Set Column Name (Alias)
+When you use MAX(), the returned column will not have a name.
+Use the AS keyword, to give the column a descriptive name:
+Example
+SELECT MAX(Price) AS HighestPrice
+FROM Products;
+
