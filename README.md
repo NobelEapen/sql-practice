@@ -294,3 +294,15 @@ Example
 SELECT MAX(Price) AS HighestPrice
 FROM Products;
 
+Use MAX() with Date Column
+The following SQL returns the latest BirthDate in the BirthDate column, in the Employees table:
+Example
+SELECT MAX(BirthDate) AS LatestBirthdate
+FROM Employees;
+
+Use MAX() with GROUP BY
+Here we use the MAX() function and the GROUP BY clause, to return the highest price for each category in the Products table:
+Example
+SELECT MAX(Price) AS HighestPrice, CategoryID
+FROM Products
+GROUP BY CategoryID;
