@@ -251,3 +251,24 @@ SUM() - returns the sum of a numerical column
 AVG() - returns the average value of a numerical column
 Aggregate functions ignore null values (except for COUNT(*)).
 
+1) The SQL MIN() Function
+The MIN() function returns the smallest value of the selected column.
+The MIN() function works with numeric, string, and date data types.
+MIN() Example
+Return the lowest price in the Price column, in the "Products" table:
+SELECT MIN(Price)
+FROM Products;
+
+Set Column Name (Alias)
+When using MIN(), the returned column will not have a name.
+Use the AS keyword to give the column a descriptive name:
+Example
+SELECT MIN(Price) AS SmallestPrice
+FROM Products;
+
+Use MIN() with Date Column
+The following SQL returns the earliest BirthDate in the BirthDate column, in the Employees table:
+Example
+SELECT MIN(BirthDate) AS EarliestBirthdate
+FROM Employees;
+
