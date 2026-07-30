@@ -266,6 +266,12 @@ Example
 SELECT MIN(Price) AS SmallestPrice
 FROM Products;
 
+Use MIN() with GROUP BY
+Here we use the MIN() function and the GROUP BY clause, to return the smallest price for each category in the Products table:
+Example
+SELECT MIN(Price) AS SmallestPrice, CategoryID
+FROM Products
+GROUP BY CategoryID;
 Use MIN() with Date Column
 The following SQL returns the earliest BirthDate in the BirthDate column, in the Employees table:
 Example
