@@ -348,3 +348,9 @@ SELECT COUNT(ProductID)
 FROM Products
 WHERE Price > 20;
 
+++Use an Alias++
+When using COUNT(), the returned column will not have a name. Use the AS keyword to give the column a descriptive name.
+Example
+Name the "count" column "Number of records":
+SELECT COUNT(*) AS [Number of records]
+FROM Products;
