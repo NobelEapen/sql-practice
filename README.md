@@ -385,3 +385,20 @@ Name the column "total":
 SELECT SUM(Quantity) AS total
 FROM OrderDetails;
 
+Use SUM() with GROUP BY
+Here we use the SUM() function and the GROUP BY clause, to return the Quantity for EACH OrderID in the "OrderDetails" table:
+Example
+SELECT OrderID, SUM(Quantity) AS [Total Quantity]
+FROM OrderDetails
+GROUP BY OrderID;
+
+SUM() With an Expression
+The parameter inside the SUM() function can also be an expression.
+If we assume that each product in the "OrderDetails" table costs 10 dollars, we can find the total earnings in dollars by multiply each quantity with 10:
+Example
+Use an expression inside the SUM() function:
+SELECT SUM(Quantity * 10)
+FROM OrderDetails;
+
+
+
