@@ -378,3 +378,10 @@ SELECT SUM(Quantity)
 FROM OrderDetails
 WHERE ProductId = 11;
 
+Use an Alias
+Give the summarized column a name by using the AS keyword.
+Example
+Name the column "total":
+SELECT SUM(Quantity) AS total
+FROM OrderDetails;
+
