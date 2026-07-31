@@ -340,5 +340,11 @@ How many different prices are there in the "Products" table:
 SELECT COUNT(DISTINCT Price)
 FROM Products;
 
-
+Add a **WHERE** Clause
+You can add a WHERE clause to specify conditions:
+Example
+Count the number of products where Price is higher than 20:
+SELECT COUNT(ProductID)
+FROM Products
+WHERE Price > 20;
 
