@@ -362,3 +362,19 @@ SELECT COUNT(*) AS [Number of records], CategoryID
 FROM Products
 GROUP BY CategoryID;
 
+The SQL **SUM()** Function
+The SUM() function is used to calculate the total sum of values within a numeric column.
+The SUM() function ignores NULL values in the column.
+The following SQL returns the sum of the Quantity field in the "OrderDetails" table:
+Example
+SELECT SUM(Quantity)
+FROM OrderDetails;
+
+Add a WHERE Clause
+You can add a WHERE clause to specify conditions.
+The following SQL returns the sum of the Quantity field for the product with ProductID = 11, in the "OrderDetails" table:
+Example
+SELECT SUM(Quantity)
+FROM OrderDetails
+WHERE ProductId = 11;
+
