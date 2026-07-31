@@ -306,3 +306,21 @@ Example
 SELECT MAX(Price) AS HighestPrice, CategoryID
 FROM Products
 GROUP BY CategoryID;
+
+The **COUNT()** function returns the number of rows that matches a specified criterion.
+COUNT() Syntax
+SELECT COUNT([DISTINCT] column_name | *)
+FROM table_name
+WHERE condition;
+
+The behavior of COUNT() depends on the argument used within the parentheses:
+COUNT(*) - Counts the total number of rows in a table (including NULL values).
+COUNT(columnname) - Counts all non-null values in the column.
+COUNT(DISTINCT columnname) - Counts only the unique, non-null values in the column.
+Using COUNT(*)
+The following SQL uses COUNT(*), and counts the total number of rows in the "Products" table (will include NULL values):
+Example
+SELECT COUNT(*)
+FROM Products;
+
+
