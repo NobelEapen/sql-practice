@@ -323,4 +323,22 @@ Example
 SELECT COUNT(*)
 FROM Products;
 
+Using COUNT(column_name)
+The COUNT(column_name) counts all non-null values in the specified column.
+The following SQL counts all non-null values of the "ProductName" column:
+Example
+SELECT COUNT(ProductName)
+FROM Products;
+
+Using COUNT(DISTINCT column_name)
+You can ignore duplicates by using the DISTINCT keyword.
+The COUNT(DISTINCT column_name) counts only the unique, non-null values in the column.
+If DISTINCT is specified, rows with the same value for the specified column will be counted as one.
+The following SQL counts the unique, non-null values of the "Price" column:
+Example
+How many different prices are there in the "Products" table:
+SELECT COUNT(DISTINCT Price)
+FROM Products;
+
+
 
