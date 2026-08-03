@@ -417,5 +417,10 @@ SELECT AVG(Price)
 FROM Products
 WHERE CategoryID = 1;
 
-
+Use an Alias
+Give the AVG column a name by using the AS keyword.
+Example
+Name the column "average price":
+SELECT AVG(Price) AS [average price]
+FROM Products;
 
