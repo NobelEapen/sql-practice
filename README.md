@@ -431,5 +431,10 @@ Return all products with a higher price than the average price:
 SELECT * FROM Products
 WHERE Price > (SELECT AVG(Price) FROM Products);
 
-
+Use AVG() with GROUP BY
+Here we use the AVG() function and the GROUP BY clause, to return the average price for EACH category in the "Products" table:
+Example
+SELECT AVG(Price) AS AveragePrice, CategoryID
+FROM Products
+GROUP BY CategoryID;
 
