@@ -463,4 +463,15 @@ Return all customers from a City that starts with 'l' followed by one wildcard c
 SELECT * FROM Customers
 WHERE city LIKE 'l_nd__';
 
+Starts With
+To return records that starts with a specific letter or phrase, add the % at the end of the letter or phrase.
+Example
+Return all customers that starts with 'La':
+SELECT * FROM Customers
+WHERE CustomerName LIKE 'La%';
+++Tip: You can also combine any number of conditions using AND or OR operators.++
+Example
+Return all customers that starts with 'a' or starts with 'b':
+SELECT * FROM Customers
+WHERE CustomerName LIKE 'a%' OR CustomerName LIKE 'b%';
 
