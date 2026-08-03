@@ -454,3 +454,13 @@ Example
 Return all customers from a City that contains the character sequence 'on':
 SELECT * FROM Customers
 WHERE city LIKE '%on%';
+
+The _ Wildcard
+The _ wildcard represents one single character.
+It can be any character or number, but each _ represents one, and only one, character.
+Example
+Return all customers from a City that starts with 'l' followed by one wildcard character, then 'nd' and then two wildcard characters:
+SELECT * FROM Customers
+WHERE city LIKE 'l_nd__';
+
+
