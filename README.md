@@ -424,3 +424,12 @@ Name the column "average price":
 SELECT AVG(Price) AS [average price]
 FROM Products;
 
+Higher Than Average
+To list all records with a higher price than average, we can use the AVG() function in a sub query:
+Example
+Return all products with a higher price than the average price:
+SELECT * FROM Products
+WHERE Price > (SELECT AVG(Price) FROM Products);
+
+
+
