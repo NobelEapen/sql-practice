@@ -438,3 +438,19 @@ SELECT AVG(Price) AS AveragePrice, CategoryID
 FROM Products
 GROUP BY CategoryID;
 
+The **LIKE** operator is used in a WHERE clause to search for a specified pattern within a column's text data.
+There are two wildcards often used in conjunction with the LIKE operator:
+A percent sign % - represents zero, one, or multiple characters
+A underscore sign _ - represents a single character
+The following SQL selects all customers that starts with the letter "a":
+Example
+Select all customers that starts with the letter "a":
+SELECT * FROM Customers
+WHERE CustomerName LIKE 'a%';
+
+The % Wildcard
+The % wildcard represents any number of characters, even zero characters.
+Example
+Return all customers from a City that contains the character sequence 'on':
+SELECT * FROM Customers
+WHERE city LIKE '%on%';
