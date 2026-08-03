@@ -400,5 +400,22 @@ Use an expression inside the SUM() function:
 SELECT SUM(Quantity * 10)
 FROM OrderDetails;
 
+The SQL **AVG()** Function
+The AVG() function returns the average value of a numeric column.
+The AVG() function ignores NULL values in the column.
+Example
+Find the average price of all products:
+SELECT AVG(Price)
+FROM Products;
+++Note: NULL values are ignored++
+
+Add a WHERE Clause
+You can add a WHERE clause to specify conditions:
+Example
+Return the average price of products in category 1:
+SELECT AVG(Price)
+FROM Products
+WHERE CategoryID = 1;
+
 
 
