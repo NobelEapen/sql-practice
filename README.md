@@ -475,3 +475,15 @@ Return all customers that starts with 'a' or starts with 'b':
 SELECT * FROM Customers
 WHERE CustomerName LIKE 'a%' OR CustomerName LIKE 'b%';
 
+Ends With
+To return records that ends with a specific letter or phrase, add the % at the beginning of the letter or phrase.
+Example
+Return all customers that ends with 'a':
+SELECT * FROM Customers
+WHERE CustomerName LIKE '%a';
+Tip: You can also combine "starts with" and "ends with":
+Example
+Return all customers that starts with "b" and ends with "s":
+SELECT * FROM Customers
+WHERE CustomerName LIKE 'b%s';
+
