@@ -501,3 +501,7 @@ Return all customers that starts with "a" and are at least 3 characters in lengt
 SELECT * FROM Customers
 WHERE CustomerName LIKE 'a__%';
 
+Example
+Return all customers that have "r" in the second position:
+SELECT * FROM Customers
+WHERE CustomerName LIKE '_r%';
