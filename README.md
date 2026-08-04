@@ -487,3 +487,9 @@ Return all customers that starts with "b" and ends with "s":
 SELECT * FROM Customers
 WHERE CustomerName LIKE 'b%s';
 
+Contains
+To return records that contains a specific letter or phrase, add the % both before and after the letter or phrase.
+Example
+Return all customers that contains the phrase 'or'
+SELECT * FROM Customers
+WHERE CustomerName LIKE '%or%';
