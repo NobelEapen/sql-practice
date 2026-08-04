@@ -493,3 +493,11 @@ Example
 Return all customers that contains the phrase 'or'
 SELECT * FROM Customers
 WHERE CustomerName LIKE '%or%';
+
+Combine Wildcards
+Any wildcard, like % and _ , can be used in combination with other wildcards.
+Example
+Return all customers that starts with "a" and are at least 3 characters in length:
+SELECT * FROM Customers
+WHERE CustomerName LIKE 'a__%';
+
