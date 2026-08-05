@@ -495,7 +495,7 @@ SELECT * FROM Customers
 WHERE CustomerName LIKE '%or%';
 
 Combine Wildcards
-Any wildcard, like % and _ , can be used in combination with other wildcards.
+Any wildcard, like **%** and **_** , can be used in combination with other wildcards.
 Example
 Return all customers that starts with "a" and are at least 3 characters in length:
 SELECT * FROM Customers
@@ -520,7 +520,7 @@ Return all customers that starts with the letter 'a':
 SELECT * FROM Customers
 WHERE CustomerName LIKE 'a%';
 
-Using the % Wildcard
+Using the **%** Wildcard
 The % wildcard represents any number of characters, even zero characters.
 Example
 Return all customers that ends with the pattern 'es':
@@ -532,6 +532,16 @@ Return all customers that contains the pattern 'mer':
 SELECT * FROM Customers
 WHERE CustomerName LIKE '%mer%';
 
-
+Using the **_** Wildcard
+The _ wildcard represents a single character.
+It can be any character or number, but each _ represents one, and only one, character.
+Example
+Return all customers with a City starting with any character, followed by "ondon":
+SELECT * FROM Customers
+WHERE City LIKE '_ondon';
+Example
+Return all customers with a City starting with "L", followed by any 3 characters, ending with "on":
+SELECT * FROM Customers
+WHERE City LIKE 'L___on';
 
 
