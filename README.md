@@ -520,3 +520,12 @@ Return all customers that starts with the letter 'a':
 SELECT * FROM Customers
 WHERE CustomerName LIKE 'a%';
 
+Using the % Wildcard
+The % wildcard represents any number of characters, even zero characters.
+Example
+Return all customers that ends with the pattern 'es':
+SELECT * FROM Customers
+WHERE CustomerName LIKE '%es';
+
+
+
