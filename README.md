@@ -527,5 +527,11 @@ Return all customers that ends with the pattern 'es':
 SELECT * FROM Customers
 WHERE CustomerName LIKE '%es';
 
+Example
+Return all customers that contains the pattern 'mer':
+SELECT * FROM Customers
+WHERE CustomerName LIKE '%mer%';
+
+
 
 
