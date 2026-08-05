@@ -512,3 +512,11 @@ Example
 Return all customers from Spain:
 SELECT * FROM Customers
 WHERE Country LIKE 'Spain';
+
+A wildcard character is used to substitute one or more characters in a string.
+Wildcard characters are used with the LIKE operator. The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
+Example
+Return all customers that starts with the letter 'a':
+SELECT * FROM Customers
+WHERE CustomerName LIKE 'a%';
+
