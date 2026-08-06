@@ -557,3 +557,16 @@ Example
 Return all customers starting with "a", "b", "c", "d", "e" or "f":
 SELECT * FROM Customers
 WHERE CustomerName LIKE '[a-f]%';
+
+Combine Wildcards
+Any wildcard, like % and _ , can be used in combination with other wildcards.
+Example
+Return all customers that starts with "a" and are at least 3 characters in length:
+SELECT * FROM Customers
+WHERE CustomerName LIKE 'a__%';
+Example
+Return all customers that have "r" in the second position:
+SELECT * FROM Customers
+WHERE CustomerName LIKE '_r%';
+
+
