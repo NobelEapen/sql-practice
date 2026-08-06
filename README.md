@@ -569,4 +569,12 @@ Return all customers that have "r" in the second position:
 SELECT * FROM Customers
 WHERE CustomerName LIKE '_r%';
 
+Without Wildcard
+If no wildcard is specified, the phrase has to have an exact match to return a result.
+Example
+Return all customers from Spain:
+SELECT * FROM Customers
+WHERE Country LIKE 'Spain';
+
+
 
