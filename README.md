@@ -582,5 +582,16 @@ The following SQL uses the IN operator to select all customers from Germany, Fra
 Example
 SELECT * FROM Customers
 WHERE Country IN ('Germany', 'France', 'UK');
+The following SQL uses multiple OR conditions to select all customers from Germany, France, or UK (same result, but longer code):
+Example
+SELECT * FROM Customers
+WHERE Country = 'Germany' OR Country = 'France' OR Country = 'UK';
+
+By using the NOT IN operator, you return all records that are NOT any of the values in the list.
+Example
+Return all customers that are NOT from 'Germany', 'France', or 'UK':
+SELECT * FROM Customers
+WHERE Country NOT IN ('Germany', 'France', 'UK');
+
 
 
