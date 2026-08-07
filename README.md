@@ -601,3 +601,11 @@ Example
 SELECT * FROM Customers
 WHERE CustomerID IN (SELECT CustomerID FROM Orders);
 
+NOT IN (SELECT)
+The result in the example above returned 74 records, that means that there are 17 customers that haven't placed any orders.
+Let us check if that is correct, by using the NOT IN operator.
+The following SQL returns all customers who do NOT have any orders in the "Orders" table:
+Example
+SELECT * FROM Customers
+WHERE CustomerID NOT IN (SELECT CustomerID FROM Orders);
+
