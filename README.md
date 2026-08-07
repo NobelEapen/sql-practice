@@ -593,5 +593,11 @@ Return all customers that are NOT from 'Germany', 'France', or 'UK':
 SELECT * FROM Customers
 WHERE Country NOT IN ('Germany', 'France', 'UK');
 
-
+IN (SELECT)
+You can also use IN with a subquery in the WHERE clause.
+With a subquery you can return all records from the main query that are present in the result of the subquery.
+The following SQL returns all customers who also have an order in the "Orders" table:
+Example
+SELECT * FROM Customers
+WHERE CustomerID IN (SELECT CustomerID FROM Orders);
 
