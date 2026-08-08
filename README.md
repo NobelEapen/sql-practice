@@ -637,4 +637,9 @@ SELECT * FROM Products
 WHERE ProductName BETWEEN 'Geitost' AND 'Louisiana Hot Spiced Okra'
 ORDER BY ProductName;
 
-
+NOT BETWEEN Text Values
+The following SQL selects all products with a ProductName NOT between 'Geitost' and 'Louisiana Hot Spiced Okra':
+Example
+SELECT * FROM Products
+WHERE ProductName NOT BETWEEN 'Geitost' AND 'Louisiana Hot Spiced Okra'
+ORDER BY ProductName;
