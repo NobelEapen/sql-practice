@@ -623,3 +623,9 @@ Example
 SELECT * FROM Products
 WHERE Price NOT BETWEEN 10 AND 20;
 
+BETWEEN with IN
+The following SQL returns all products with a price between 10 and 20. In addition, the CategoryID must be either 1, 2 or 3:
+Example
+SELECT * FROM Products
+WHERE Price BETWEEN 10 AND 20
+AND CategoryID IN (1,2,3);
