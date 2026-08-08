@@ -617,3 +617,9 @@ Select all products with a price between 10 and 20:
 SELECT * FROM Products
 WHERE Price BETWEEN 10 AND 20;
 
+The NOT BETWEEN operator is used in the WHERE clause to select values outside a specified range.
+The following SQL returns all products with a price NOT between 10 and 20:
+Example
+SELECT * FROM Products
+WHERE Price NOT BETWEEN 10 AND 20;
+
