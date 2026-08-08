@@ -643,3 +643,10 @@ Example
 SELECT * FROM Products
 WHERE ProductName NOT BETWEEN 'Geitost' AND 'Louisiana Hot Spiced Okra'
 ORDER BY ProductName;
+
+BETWEEN Dates
+The BETWEEN operator is useful for filtering records within a specific date or time period. Ensure the date format matches the database (e.g. 'YYYY-MM-DD').
+The following SQL selects all orders placed in July, 1996:
+Example
+SELECT * FROM Orders
+WHERE OrderDate BETWEEN '1996-07-01' AND '1996-07-31';
