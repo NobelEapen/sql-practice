@@ -609,3 +609,11 @@ Example
 SELECT * FROM Customers
 WHERE CustomerID NOT IN (SELECT CustomerID FROM Orders);
 
+The **BETWEEN** operator is used in the WHERE clause to select values within a specified range.
+The range is inclusive - the beginning and end values of the range are included in the results.
+The values can be numbers, text, or dates.
+Example
+Select all products with a price between 10 and 20:
+SELECT * FROM Products
+WHERE Price BETWEEN 10 AND 20;
+
