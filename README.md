@@ -629,3 +629,12 @@ Example
 SELECT * FROM Products
 WHERE Price BETWEEN 10 AND 20
 AND CategoryID IN (1,2,3);
+
+BETWEEN Text Values
+The following SQL selects all products with a ProductName alphabetically between 'Geitost' and 'Louisiana Hot Spiced Okra':
+Example
+SELECT * FROM Products
+WHERE ProductName BETWEEN 'Geitost' AND 'Louisiana Hot Spiced Okra'
+ORDER BY ProductName;
+
+
