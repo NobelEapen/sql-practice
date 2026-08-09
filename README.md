@@ -673,3 +673,9 @@ Using "double quotes" for aliases with space characters:
 SELECT ProductName AS "My Great Products"
 FROM Products;
 
+Concatenate Columns
+The following SQL creates an alias named "Address" that combine four columns (Address, PostalCode, City and Country):
+Example
+SELECT CustomerName, Address + ', ' + PostalCode + ' ' + City + ', ' + Country AS Address
+FROM Customers;
+
