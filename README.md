@@ -650,3 +650,13 @@ The following SQL selects all orders placed in July, 1996:
 Example
 SELECT * FROM Orders
 WHERE OrderDate BETWEEN '1996-07-01' AND '1996-07-31';
+
+An alias is created with the **AS** keyword, and is often used to make a column name more readable.
+An alias only exists for the duration of that query.
+Alias for Columns
+The following SQL creates two aliases, one for the CustomerID column and one for the CustomerName column:
+Example
+SELECT CustomerID AS ID, CustomerName AS Customer
+FROM Customers;
+
+
