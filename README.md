@@ -666,3 +666,10 @@ Using [square brackets] for aliases with space characters:
 SELECT ProductName AS [My Great Products]
 FROM Products;
 
+OR:
+
+Example
+Using "double quotes" for aliases with space characters:
+SELECT ProductName AS "My Great Products"
+FROM Products;
+
