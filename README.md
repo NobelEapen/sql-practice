@@ -659,4 +659,10 @@ Example
 SELECT CustomerID AS ID, CustomerName AS Customer
 FROM Customers;
 
+Aliases with Spaces
+If you want your alias to contain one or more spaces, like "My Great Products", surround the aliasname with square brackets or double quotes:
+Example
+Using [square brackets] for aliases with space characters:
+SELECT ProductName AS [My Great Products]
+FROM Products;
 
