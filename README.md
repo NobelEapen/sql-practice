@@ -711,5 +711,11 @@ INNER JOIN Categories ON Products.CategoryID = Categories.CategoryID;
 
 ++Note: INNER JOIN returns only rows with a match in both tables. This means that if there is a product with no CategoryID, or with a CategoryID not present in the Categories table, that row will not be returned in the result.++
 
-
+Naming the Columns
+It is a good practice to also include the table name when specifying columns in SQL joins:
+Example
+Add table name in front of column names:
+SELECT Products.ProductID, Products.ProductName, Categories.CategoryName
+FROM Products
+INNER JOIN Categories ON Products.CategoryID = Categories.CategoryID;
 
