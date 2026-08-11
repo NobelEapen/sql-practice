@@ -709,5 +709,7 @@ SELECT ProductID, ProductName, CategoryName
 FROM Products
 INNER JOIN Categories ON Products.CategoryID = Categories.CategoryID;
 
+++Note: INNER JOIN returns only rows with a match in both tables. This means that if there is a product with no CategoryID, or with a CategoryID not present in the Categories table, that row will not be returned in the result.++
+
 
 
