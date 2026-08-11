@@ -720,3 +720,21 @@ FROM Products
 INNER JOIN Categories ON Products.CategoryID = Categories.CategoryID;
 
 The example above works without specifying table names, because none of the specified column names are present in both tables. However, if you add the CategoryID column in the SELECT statement, an error occurs, if you do not specify the table name. This is because the CategoryID column is present in both tables.
+
+**JOIN** and **INNER JOIN** will return the same result.
+INNER is the default join type for JOIN, so when you write JOIN the parser actually writes INNER JOIN.
+Example
+JOIN is the same as INNER JOIN:
+SELECT Products.ProductID, Products.ProductName, Categories.CategoryName
+FROM Products
+JOIN Categories ON Products.CategoryID = Categories.CategoryID;
+
+JOIN Multiple Tables
+You can join more than two tables by adding multiple INNER JOIN clauses in your query.
+The following SQL selects all orders with customer and shipper information:
+Example
+SELECT Orders.OrderID, Customers.CustomerName, Shippers.ShipperName
+FROM Orders
+INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID
+INNER JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID;
+
