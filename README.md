@@ -719,3 +719,4 @@ SELECT Products.ProductID, Products.ProductName, Categories.CategoryName
 FROM Products
 INNER JOIN Categories ON Products.CategoryID = Categories.CategoryID;
 
+The example above works without specifying table names, because none of the specified column names are present in both tables. However, if you add the CategoryID column in the SELECT statement, an error occurs, if you do not specify the table name. This is because the CategoryID column is present in both tables.
