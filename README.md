@@ -701,3 +701,5 @@ SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
 FROM Orders
 INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
 
+The **INNER JOIN** returns only rows that have matching values in both tables.
+Tip: You can use just JOIN instead of INNER JOIN, as INNER is the default join type.
