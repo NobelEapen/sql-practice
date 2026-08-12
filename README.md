@@ -738,3 +738,10 @@ FROM Orders
 INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID
 INNER JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID;
 
+SQL LEFT JOIN
+The **LEFT JOIN** returns all rows from the left table (table1), and only the matched rows from the right table (table2).
+If there is no match in the right table, the result for the columns from the right table will be NULL.
+The LEFT JOIN and LEFT OUTER JOIN keywords are equal - the OUTER keyword is optional.
+
+
+
