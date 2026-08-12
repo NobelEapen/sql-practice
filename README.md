@@ -743,5 +743,11 @@ The **LEFT JOIN** returns all rows from the left table (table1), and only the ma
 If there is no match in the right table, the result for the columns from the right table will be NULL.
 The LEFT JOIN and LEFT OUTER JOIN keywords are equal - the OUTER keyword is optional.
 
-
+SQL LEFT JOIN Examples
+The following SQL returns all customers and their orders, including customers who have not placed any orders:
+Example
+SELECT Customers.CustomerName, Orders.OrderID
+FROM Customers
+LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID
+ORDER BY Customers.CustomerName;
 
