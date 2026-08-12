@@ -764,4 +764,12 @@ The RIGHT JOIN returns all rows from the right table (table2), and only the matc
 If there is no match in the left table, the result for the columns from the left table will be NULL.
 The RIGHT JOIN and RIGHT OUTER JOIN keywords are equal - the OUTER keyword is optional.
 
+SQL RIGHT JOIN Example
+The following SQL will return all employees, and any orders they might have placed:
+Example
+SELECT Orders.OrderID, Employees.LastName, Employees.FirstName
+FROM Orders
+RIGHT JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID
+ORDER BY Orders.OrderID;
+
 
