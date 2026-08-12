@@ -751,3 +751,11 @@ FROM Customers
 LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID
 ORDER BY Customers.CustomerName;
 
+++Tip: To find only the customers who have not placed any order, add a WHERE clause to filter for NULL values on the right table:++
+Example
+SELECT Customers.CustomerName, Orders.OrderID
+FROM Customers
+LEFT JOIN Orders
+ON Customers.CustomerID = Orders.CustomerID
+WHERE Orders.CustomerID IS NULL;
+
