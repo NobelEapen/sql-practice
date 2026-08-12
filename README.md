@@ -759,3 +759,9 @@ LEFT JOIN Orders
 ON Customers.CustomerID = Orders.CustomerID
 WHERE Orders.CustomerID IS NULL;
 
+SQL **RIGHT JOIN**
+The RIGHT JOIN returns all rows from the right table (table2), and only the matched rows from the left table (table1).
+If there is no match in the left table, the result for the columns from the left table will be NULL.
+The RIGHT JOIN and RIGHT OUTER JOIN keywords are equal - the OUTER keyword is optional.
+
+
