@@ -781,6 +781,12 @@ If a row in the right table has no match in the left table, the result set inclu
 The FULL JOIN and FULL OUTER JOIN keywords are equal - the OUTER keyword is optional.
 ++Note: FULL JOIN can potentially return very large result-sets!++
 
-
+SQL FULL JOIN Example
+The following SQL statement selects all customers, and all orders:
+Example
+SELECT Customers.CustomerName, Orders.OrderID
+FROM Customers
+FULL JOIN Orders
+ON Customers.CustomerID = Orders.CustomerID;
 
 
