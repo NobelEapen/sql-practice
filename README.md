@@ -773,3 +773,14 @@ RIGHT JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID
 ORDER BY Orders.OrderID;
 
 Note: The RIGHT JOIN keyword returns all records from the right table (Employees), even if there are no matches in the left table (Orders).
+
+SQL FULL JOIN
+The **FULL JOIN** returns all rows when there is a match in either the left or right table.
+If a row in the left table has no match in the right table, the result set includes the left row's data and NULL values for all columns of the right table.
+If a row in the right table has no match in the left table, the result set includes the right row's data and NULL values for all columns of the left table.
+The FULL JOIN and FULL OUTER JOIN keywords are equal - the OUTER keyword is optional.
+++Note: FULL JOIN can potentially return very large result-sets!++
+
+
+
+
