@@ -791,6 +791,6 @@ ON Customers.CustomerID = Orders.CustomerID;
 
 Note: FULL JOIN returns all matching records from both tables whether the other table matches or not. So, if there are rows in "Customers" that do not have matches in "Orders", or if there are rows in "Orders" that do not have matches in "Customers", those rows will be listed as well.
 
-
+A self join is a regular join, but the table is joined with itself.
 
 
