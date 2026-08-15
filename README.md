@@ -816,6 +816,13 @@ SELECT Country FROM Suppliers
 ORDER BY Country;
 
 Note: If some customers or suppliers have the same country, each country will only be listed once, because UNION selects only distinct values. Use UNION ALL to also select duplicate values!
-
+Here we add a WHERE clause to only return the unique German cities from both the "Customers" and the "Suppliers" table:
+Example
+SELECT City, Country FROM Customers
+WHERE Country='Germany'
+UNION
+SELECT City, Country FROM Suppliers
+WHERE Country='Germany'
+ORDER BY City;
 
 
