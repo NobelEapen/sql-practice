@@ -814,3 +814,8 @@ SELECT Country FROM Customers
 UNION
 SELECT Country FROM Suppliers
 ORDER BY Country;
+
+Note: If some customers or suppliers have the same country, each country will only be listed once, because UNION selects only distinct values. Use UNION ALL to also select duplicate values!
+
+
+
