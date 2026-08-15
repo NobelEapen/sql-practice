@@ -834,5 +834,5 @@ UNION
 SELECT 'Supplier', ContactName, City, Country
 FROM Suppliers;
 
-
+Notice the "AS Type" above - it is an alias. Aliases are used to give a column a temporary name. So, here we have created a temporary column named "Type", that list whether the contact person is a "Customer" or a "Supplier".
 
