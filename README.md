@@ -800,3 +800,17 @@ WHERE A.CustomerID <> B.CustomerID
 AND A.City = B.City
 ORDER BY A.City;
 
+The SQL **UNION** Operator
+The UNION operator is used to combine the result-set of two or more SELECT statements.
+The UNION operator automatically removes duplicate rows from the result set.
+Requirements for UNION:
+Every SELECT statement within UNION must have the same number of columns
+The columns must also have similar data types
+The columns in every SELECT statement must also be in the same order
+
+The following SQL returns the unique (distinct) countries from both the "Customers" and the "Suppliers" table:
+Example
+SELECT Country FROM Customers
+UNION
+SELECT Country FROM Suppliers
+ORDER BY Country;
