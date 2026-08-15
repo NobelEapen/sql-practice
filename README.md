@@ -825,4 +825,14 @@ SELECT City, Country FROM Suppliers
 WHERE Country='Germany'
 ORDER BY City;
 
+Another UNION Example
+The following SQL lists all customers and suppliers:
+Example
+SELECT 'Customer' AS Type, ContactName, City, Country
+FROM Customers
+UNION
+SELECT 'Supplier', ContactName, City, Country
+FROM Suppliers;
+
+
 
