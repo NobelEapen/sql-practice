@@ -836,3 +836,14 @@ FROM Suppliers;
 
 Notice the "AS Type" above - it is an alias. Aliases are used to give a column a temporary name. So, here we have created a temporary column named "Type", that list whether the contact person is a "Customer" or a "Supplier".
 
+
+The SQL UNION ALL Operator
+The **UNION ALL** operator is used to combine the result-set of two or more SELECT statements.
+The UNION ALL operator includes all rows from each statement, including any duplicates.
+Requirements for UNION ALL: 
+Every SELECT statement within UNION ALL must have the same number of columns
+The columns must also have similar data types
+The columns in every SELECT statement must also be in the same order
+
+
+
