@@ -855,7 +855,15 @@ UNION ALL
 SELECT Country FROM Suppliers
 ORDER BY Country;
 
-
+SQL UNION ALL With WHERE
+Here we add a WHERE clause to return all the German cities from both the "Customers" and the "Suppliers" table:
+Example
+SELECT City, Country FROM Customers
+WHERE Country='Germany'
+UNION ALL
+SELECT City, Country FROM Suppliers
+WHERE Country='Germany'
+ORDER BY City;
 
 
 
