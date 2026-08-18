@@ -847,5 +847,18 @@ The columns in every SELECT statement must also be in the same order
 
 Note: The column names in the result-set are usually equal to the column names in the first SELECT statement.
 
+SQL UNION ALL Example
+The following SQL returns all the countries (also duplicate values) from both the "Customers" and the "Suppliers" table:
+Example
+SELECT Country FROM Customers
+UNION ALL
+SELECT Country FROM Suppliers
+ORDER BY Country;
+
+
+
+
+
+
 
 
