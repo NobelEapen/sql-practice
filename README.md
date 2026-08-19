@@ -876,4 +876,13 @@ SELECT Country, COUNT(CustomerID) AS [Number of Customers]
 FROM Customers
 GROUP BY Country;
 
+The following SQL returns the number of customers in each country, sorted from high to low:
+Example
+SELECT Country, COUNT(CustomerID) AS [Number of Customers]
+FROM Customers
+GROUP BY Country
+ORDER BY COUNT(CustomerID) DESC;
+
+
+
 
