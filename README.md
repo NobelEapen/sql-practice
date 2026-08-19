@@ -865,7 +865,9 @@ SELECT City, Country FROM Suppliers
 WHERE Country='Germany'
 ORDER BY City;
 
-
+The SQL GROUP BY Statement
+The GROUP BY statement is used to group rows that have the same values into summary rows, like "Find the number of customers in each country".
+The GROUP BY statement is almost always used in conjunction with aggregate functions, like COUNT(), MAX(), MIN(), SUM(), AVG(), to perform calculations on each group.
 
 
 
