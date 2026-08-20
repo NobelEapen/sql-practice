@@ -923,6 +923,7 @@ HAVING COUNT(Orders.OrderID) > 10;
 
 The following SQL returns if the employees "Davolio" or "Fuller" have registered more than 25 orders:
 Example
+
 SELECT Employees.LastName, COUNT(Orders.OrderID) AS NumberOfOrders
 FROM Orders
 INNER JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID
