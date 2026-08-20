@@ -896,5 +896,12 @@ The SQL **HAVING** Clause
 The HAVING clause is used to filter the results of a GROUP BY query based on aggregate functions.
 Unlike the WHERE clause, which filters individual rows before grouping, the HAVING clause filters groups after the aggregation has been performed.
 
+SQL HAVING Examples
+The following SQL returns the number of customers in each country - but only include countries with more than 5 customers:
+Example
+SELECT Country, COUNT(CustomerID) AS [Number of Customers]
+FROM Customers
+GROUP BY Country
+HAVING COUNT(CustomerID) > 5;
 
 
