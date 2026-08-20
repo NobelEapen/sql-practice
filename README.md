@@ -904,4 +904,11 @@ FROM Customers
 GROUP BY Country
 HAVING COUNT(CustomerID) > 5;
 
+The following SQL returns the number of customers in each country, sorted from high to low (and only include countries with more than 5 customers):
+Example
+SELECT Country, COUNT(CustomerID) AS [Number of Customers]
+FROM Customers
+GROUP BY Country
+HAVING COUNT(CustomerID) > 5
+ORDER BY COUNT(CustomerID) DESC;
 
