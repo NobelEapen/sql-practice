@@ -892,4 +892,9 @@ LEFT JOIN Shippers
 ON Orders.ShipperID = Shippers.ShipperID
 GROUP BY ShipperName;
 
+The SQL **HAVING** Clause
+The HAVING clause is used to filter the results of a GROUP BY query based on aggregate functions.
+Unlike the WHERE clause, which filters individual rows before grouping, the HAVING clause filters groups after the aggregation has been performed.
+
+
 
