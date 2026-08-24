@@ -955,7 +955,9 @@ WHERE EXISTS (
   WHERE Products.SupplierID = Suppliers.supplierID AND Price = 22
 );
 
-
+The SQL **ANY** Operator
+The ANY operator is used to compare a value to every value returned by a subquery.
+The ANY operator evaluates to TRUE if at least one value in the subquery result-set meet the condition.
 
 
 
