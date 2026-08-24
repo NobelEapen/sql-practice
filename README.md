@@ -969,7 +969,13 @@ WHERE ProductID = ANY (
 );
 
 The following SQL returns the ProductName if it finds ANY records in the "OrderDetails" table that has Quantity larger than 99 (this will return TRUE because the Quantity column has some values larger than 99):
-
+Example
+SELECT ProductName FROM Products
+WHERE ProductID = ANY (
+  SELECT ProductID
+  FROM OrderDetails
+  WHERE Quantity > 99
+);
 
 
 
