@@ -958,7 +958,15 @@ WHERE EXISTS (
 The SQL **ANY** Operator
 The ANY operator is used to compare a value to every value returned by a subquery.
 The ANY operator evaluates to TRUE if at least one value in the subquery result-set meet the condition.
-
+SQL ANY Examples
+The following SQL returns the ProductName if it finds ANY records in the "OrderDetails" table that has Quantity equal to 10 (this will return TRUE because the Quantity column has some values of 10):
+Example
+SELECT ProductName FROM Products
+WHERE ProductID = ANY (
+  SELECT ProductID
+  FROM OrderDetails
+  WHERE Quantity = 10
+);
 
 
 
