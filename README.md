@@ -990,6 +990,8 @@ The ALL operator is used to compare a value to every value returned by a subquer
 The ALL operator evaluates to TRUE if every value in the subquery result-set meet the condition.
 The ALL operator is typically used with WHERE and HAVING statements.
 
+Note: The operator must be a standard comparison operator (=, <>, !=, >, >=, <, or <=).
+
 
 
 
