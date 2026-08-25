@@ -991,7 +991,8 @@ The ALL operator evaluates to TRUE if every value in the subquery result-set mee
 The ALL operator is typically used with WHERE and HAVING statements.
 
 Note: The operator must be a standard comparison operator (=, <>, !=, >, >=, <, or <=).
-
+SQL ALL Example
+The following SQL returns the ProductName if ALL the records in the "OrderDetails" table has Quantity equal to 10. This will of course return FALSE because the Quantity column has many different values (not only the value of 10):
 
 
 
