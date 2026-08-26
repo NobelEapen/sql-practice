@@ -1021,7 +1021,10 @@ The following SQL copies only a few columns from the "Customers" table into a ne
 SELECT CustomerName, ContactName INTO Customers2
 FROM Customers;
 
-
+The following SQL copies only the customers from USA in the "Customers" table, into a new table:
+SELECT * INTO US_Customers
+FROM Customers
+WHERE Country = 'USA';
 
 
 
