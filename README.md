@@ -1013,7 +1013,9 @@ The following SQL creates a backup copy of the "Customers" table:
 SELECT * INTO CustomersBackup2026
 FROM Customers;
 
-
+The following SQL creates a backup copy of the "Customers" table in another database ('Backup.mdb'):
+SELECT * INTO CustomersBackup2026 IN 'Backup.mdb'
+FROM Customers;
 
 
 
