@@ -1032,6 +1032,9 @@ FROM Customers
 LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
 Tip: SELECT INTO can also be used to create a new, empty table using the schema of another. Just add a WHERE clause that causes the query to return no data:
 
+SELECT * INTO newtable
+FROM sourcetable
+WHERE 1 = 0;
 
 
 
