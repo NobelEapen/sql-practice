@@ -1017,5 +1017,23 @@ The following SQL creates a backup copy of the "Customers" table in another data
 SELECT * INTO CustomersBackup2026 IN 'Backup.mdb'
 FROM Customers;
 
+The following SQL copies only a few columns from the "Customers" table into a new table:
+SELECT CustomerName, ContactName INTO Customers2
+FROM Customers;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
