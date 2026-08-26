@@ -1026,7 +1026,11 @@ SELECT * INTO US_Customers
 FROM Customers
 WHERE Country = 'USA';
 
-
+The following SQL copies data from more than one table into a new table:
+SELECT Customers.CustomerName, Orders.OrderID INTO CustomersOrder
+FROM Customers
+LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
+Tip: SELECT INTO can also be used to create a new, empty table using the schema of another. Just add a WHERE clause that causes the query to return no data:
 
 
 
