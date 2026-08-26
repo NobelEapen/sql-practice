@@ -1003,5 +1003,14 @@ WHERE ProductID = ALL (
   WHERE Quantity = 10
 );
 
+The SQL **SELECT INTO** Statement
+The SELECT INTO statement is used to create a new table and fill it with data from an existing table.
+The SELECT INTO statement is useful for creating backups or for creating a temporary table for analysis.
+Note: The new table will be created with the same column names and data types as defined in the source table. However, primary keys, indexes, or NOT NULL constraints are not automatically transferred.
+
+
+
+
+
 
 
