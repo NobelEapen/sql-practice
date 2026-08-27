@@ -1053,7 +1053,11 @@ Copy "Suppliers" into "Customers" (copy all columns):
 INSERT INTO Customers
 SELECT * FROM Suppliers;
 
-
+Example
+Copy only the German suppliers into "Customers":
+INSERT INTO Customers (CustomerName, City, Country)
+SELECT SupplierName, City, Country FROM Suppliers
+WHERE Country='Germany';
 
 
 
