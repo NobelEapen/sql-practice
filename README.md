@@ -1042,7 +1042,11 @@ The INSERT INTO SELECT statement requires that the data types in source and targ
 Note: The existing records in the target table are unaffected.
 Note: If you omit the column names, the number and order of columns in the source and target tables must be exactly the same!
 
-
+SQL INSERT INTO SELECT Examples
+Example
+Copy "Suppliers" into "Customers" (the columns that are not filled with data, will contain NULL):
+INSERT INTO Customers (CustomerName, City, Country)
+SELECT SupplierName, City, Country FROM Suppliers;
 
 
 
