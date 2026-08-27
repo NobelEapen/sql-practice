@@ -1048,7 +1048,10 @@ Copy "Suppliers" into "Customers" (the columns that are not filled with data, wi
 INSERT INTO Customers (CustomerName, City, Country)
 SELECT SupplierName, City, Country FROM Suppliers;
 
-
+Example
+Copy "Suppliers" into "Customers" (copy all columns):
+INSERT INTO Customers
+SELECT * FROM Suppliers;
 
 
 
