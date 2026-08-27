@@ -1036,7 +1036,10 @@ SELECT * INTO newtable
 FROM sourcetable
 WHERE 1 = 0;
 
-
+The SQL **INSERT INTO** SELECT Statement
+The INSERT INTO SELECT statement is used to copy data from an existing table and insert it into another existing table.
+The INSERT INTO SELECT statement requires that the data types in source and target tables match.
+Note: The existing records in the target table are unaffected.
 
 
 
