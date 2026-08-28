@@ -1059,7 +1059,9 @@ INSERT INTO Customers (CustomerName, City, Country)
 SELECT SupplierName, City, Country FROM Suppliers
 WHERE Country='Germany';
 
-
+The SQL **CASE** Expression
+The CASE expression is used to define different results based on specified conditions in an SQL statement.
+The CASE expression goes through the conditions and stops at the first match (like an if-then-else statement). So, once a condition is true, it will stop processing and return the result. If no conditions are true, it returns the value in the ELSE clause. If there is no ELSE clause and no conditions are true, it returns NULL.
 
 
 
