@@ -1082,6 +1082,8 @@ SQL has some built-in functions to handle NULL values, and the most common funct
 **ISNULL()** - (SQL Server)
 **NVL()** - (Oracle)
 **IsNull()** - (MS Access)
+Note: A NULL value represents an unknown or missing data in a database field. It is not a value itself, but a placeholder to indicate the absence of data.
+
 
 
 
