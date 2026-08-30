@@ -1089,7 +1089,9 @@ The COALESCE() function is the preferred standard for handling potential NULL va
 The COALESCE() function returns the first non-NULL value in a list of values.
 The COALESCE() function works in MySQL, SQL Server, and Oracle (not in MS Access).
 
-
+Here we use the COALESCE() function to replace NULL values with 0:
+SELECT ProductName, Price * (InStock + COALESCE(InOrder, 0))
+FROM Products;
 
 
 
