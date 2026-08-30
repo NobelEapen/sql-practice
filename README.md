@@ -1109,7 +1109,13 @@ Here we replace NULL values with 0:
 SELECT ProductName, Price * (InStock + ISNULL(InOrder, 0))
 FROM Products;
 
-
+The NVL() Function (Oracle)
+The Oracle NVL() function replaces NULL with a specified value.
+Syntax
+NVL(expr, alt)
+Here we replace NULL values with 0:
+SELECT ProductName, Price * (InStock + NVL(InOrder, 0))
+FROM Products;
 
 
 
