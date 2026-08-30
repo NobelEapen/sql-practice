@@ -1093,7 +1093,13 @@ Here we use the COALESCE() function to replace NULL values with 0:
 SELECT ProductName, Price * (InStock + COALESCE(InOrder, 0))
 FROM Products;
 
-
+The IFNULL() Function (MySQL)
+The MySQL IFNULL() function replaces NULL with a specified value.
+Syntax
+IFNULL(expr, alt)
+Here we replace NULL values with 0:
+SELECT ProductName, Price * (InStock + IFNULL(InOrder, 0))
+FROM Products;
 
 
 
