@@ -1074,7 +1074,14 @@ CASE
 END AS PriceCategory
 FROM Products;
 
-
+SQL **COALESCE()**, **IFNULL()**, **ISNULL()**, and **NVL()** Functions
+Operations involving NULL values can sometimes lead to unexpected results.
+SQL has some built-in functions to handle NULL values, and the most common functions are:
+**COALESCE()** - The preferred standard. (Works in MySQL, SQL Server and Oracle)
+**IFNULL()** - (MySQL)
+**ISNULL()** - (SQL Server)
+**NVL()** - (Oracle)
+**IsNull()** - (MS Access)
 
 
 
