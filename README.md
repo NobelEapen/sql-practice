@@ -1117,7 +1117,20 @@ Here we replace NULL values with 0:
 SELECT ProductName, Price * (InStock + NVL(InOrder, 0))
 FROM Products;
 
+The IsNull() Function (MS Access)
+The MS Access IsNull() function returns TRUE if the expression is NULL, otherwise FALSE.
+Syntax
+IsNull(expr)
+The MS Access IIf() function returns one of two parts, depending on the evaluation of the expression.
+Syntax
+IIf(expr, truepart, falsepart)
+expr - Required. The expression to evaluate
+truepart - Value to return if expr is True
+falsepart - Value to return if expr is False
+Here we replace NULL values with 0:
 
+SELECT ProductName, Price * (InStock + IIf(IsNull(InOrder), 0, InOrder))
+FROM Products;
 
 
 
