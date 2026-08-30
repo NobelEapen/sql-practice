@@ -1101,7 +1101,13 @@ Here we replace NULL values with 0:
 SELECT ProductName, Price * (InStock + IFNULL(InOrder, 0))
 FROM Products;
 
-
+The ISNULL() Function (SQL Server)
+The SQL Server ISNULL() function replaces NULL with a specified value.
+Syntax
+ISNULL(expr, alt)
+Here we replace NULL values with 0:
+SELECT ProductName, Price * (InStock + ISNULL(InOrder, 0))
+FROM Products;
 
 
 
