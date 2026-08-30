@@ -1084,7 +1084,10 @@ SQL has some built-in functions to handle NULL values, and the most common funct
 **IsNull()** - (MS Access)
 Note: A NULL value represents an unknown or missing data in a database field. It is not a value itself, but a placeholder to indicate the absence of data.
 
-
+The **COALESCE()** Function
+The COALESCE() function is the preferred standard for handling potential NULL values.
+The COALESCE() function returns the first non-NULL value in a list of values.
+The COALESCE() function works in MySQL, SQL Server, and Oracle (not in MS Access).
 
 
 
