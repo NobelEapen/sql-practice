@@ -1191,7 +1191,24 @@ Here we execute the stored procedure by passing a city ('London') as a parameter
 Example
 EXEC GetCustomersByCity @City = 'London';
 
+Stored Procedure With Multiple Parameters
+Adding multiple parameters is easy. Just list each parameter and the data type separated by a comma as shown below.
 
+The following SQL creates a stored procedure that selects Customers from a particular City with a particular PostalCode from the "Customers" table:
+
+Example
+CREATE PROCEDURE GetCustomersByCity
+  @City nvarchar(50),
+  @PostalCode nvarchar(10)
+AS
+BEGIN
+  SELECT * FROM Customers
+  WHERE City = @City AND PostalCode = @PostalCode;
+END;
+Execute the stored procedure above as follows:
+
+Example
+EXEC GetCustomersByCity @City = 'London', @PostalCode = 'WA1 1DP';
 
 
 
