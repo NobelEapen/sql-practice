@@ -1167,3 +1167,23 @@ To run a stored procedure, use the EXEC statement:
 
 EXEC procedure_name @param1 = 'value1', @param2 = 'value2';
 
+Drop a Stored Procedure
+To delete a stored procedure, use the DROP PROCEDURE statement:
+
+DROP PROCEDURE procedure_name;
+Tip: To ensure that DROP PROCEDURE does not return an error, if the procedure is missing, add the IF EXISTS clause:
+
+DROP PROCEDURE IF EXISTS procedure_name;
+
+
+
+
+
+
+
+
+
+
+
+
+
