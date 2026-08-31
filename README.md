@@ -1139,7 +1139,13 @@ If you have an SQL query that you write over and over again, save it as a stored
 
 A stored procedure can also have parameters, so it can act based on the parameter value(s) that is passed.
 
+Key Benefits of Stored Procedures
+Stored procedures are widely used in database management, and have the following benefits:
 
+Code Reusability - The same procedure can be called from various applications
+Improved Performance - Stored procedures are precompiled and runs faster
+Database Security - You can set users permission to run a specific procedure (limits direct access to tables)
+Easy Maintenance - When updating a procedure, it automatically updates all its use
 
 
 
