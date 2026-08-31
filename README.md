@@ -1147,5 +1147,23 @@ Improved Performance - Stored procedures are precompiled and runs faster
 Database Security - You can set users permission to run a specific procedure (limits direct access to tables)
 Easy Maintenance - When updating a procedure, it automatically updates all its use
 
+Stored Procedure Syntax (SQL Server)
+To create a stored procedure, use the CREATE PROCEDURE statement:
 
+CREATE PROCEDURE procedure_name
+  @param1 datatype,
+  @param2 datatype
+AS
+BEGIN
+  -- SQL_statements to be executed
+  SELECT column1, column2
+  FROM table_name
+  WHERE columnN = @paramN;
+END;
+Tip: To see the syntax for MySQL database, look at MySQL Stored Procedures.
+
+Execute a Stored Procedure
+To run a stored procedure, use the EXEC statement:
+
+EXEC procedure_name @param1 = 'value1', @param2 = 'value2';
 
