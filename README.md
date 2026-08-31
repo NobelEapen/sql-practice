@@ -1175,7 +1175,21 @@ Tip: To ensure that DROP PROCEDURE does not return an error, if the procedure is
 
 DROP PROCEDURE IF EXISTS procedure_name;
 
+Stored Procedure Example
+The following SQL creates a stored procedure named "GetCustomersByCity" that can be used to select Customers from a particular City in the "Customers" table:
 
+Example
+CREATE PROCEDURE GetCustomersByCity
+  @City nvarchar(50)
+AS
+BEGIN
+  SELECT * FROM Customers
+  WHERE City = @City;
+END;
+Here we execute the stored procedure by passing a city ('London') as a parameter, and the stored procedure returns the relevant details from the "Customers" table:
+
+Example
+EXEC GetCustomersByCity @City = 'London';
 
 
 
