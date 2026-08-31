@@ -1132,6 +1132,13 @@ Here we replace NULL values with 0:
 SELECT ProductName, Price * (InStock + IIf(IsNull(InOrder), 0, InOrder))
 FROM Products;
 
+What is a Stored Procedure?
+A stored procedure is a precompiled SQL code that can be saved and reused.
+
+If you have an SQL query that you write over and over again, save it as a stored procedure, and then just call it to execute it.
+
+A stored procedure can also have parameters, so it can act based on the parameter value(s) that is passed.
+
 
 
 
