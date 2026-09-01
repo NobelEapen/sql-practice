@@ -1210,7 +1210,14 @@ Execute the stored procedure above as follows:
 Example
 EXEC GetCustomersByCity @City = 'London', @PostalCode = 'WA1 1DP';
 
+SQL Comments
+Comments are used to explain SQL code, or to temporarily prevent execution of SQL code (for debugging).
 
+Comments are ignored by the database engine.
+
+SQL supports single-line comments --, and multi-line comments /* */.
+
+Note: Comments are not supported in Microsoft Access databases.
 
 
 
