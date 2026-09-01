@@ -1248,6 +1248,38 @@ Example
 -- SELECT * FROM Customers;
 SELECT * FROM Products;
 
+SQL Multi-line Comments
+Multi-line comments start with /* and end with */.
+
+Any text between /* and */ will be ignored.
+
+The following example uses a multi-line comment as an explanation:
+
+Example
+/* Selects all German customers
+from Berlin */
+SELECT * FROM Customers
+WHERE Country = 'Germany' AND City = 'Berlin';
+The following example uses a multi-line comment to ignore many SQL statements:
+
+Example
+/* SELECT * FROM Customers;
+SELECT * FROM Products;
+SELECT * FROM Orders;
+SELECT * FROM Categories; */
+SELECT * FROM Suppliers;
+To ignore just a part of an SQL code, you can also use multi-line comment:
+
+Example
+SELECT CustomerName, /*City,*/ Country FROM Customers;
+The following example uses a multi-line comment to ignore part of an SQL statement:
+
+Example
+SELECT * FROM Customers WHERE (CustomerName LIKE 'L%'
+OR CustomerName LIKE 'R%' /*OR CustomerName LIKE 'S%'
+OR CustomerName LIKE 'T%'*/ OR CustomerName LIKE 'W%')
+AND Country='USA'
+ORDER BY CustomerName;
 
 
 
