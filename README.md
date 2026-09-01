@@ -1233,5 +1233,28 @@ Any text after -- and to the end of the line will be ignored.
 
 The following example uses a single-line comment as an explanation:
 
+Example
+-- Selects all German customers
+SELECT * FROM Customers
+WHERE Country = 'Germany';
+The following example uses a single-line comment to comment away the end of a line:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
