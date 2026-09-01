@@ -1226,7 +1226,12 @@ Any text after -- and to the end of the line will be ignored.
 
 The following example uses a single-line comment as an explanation:
 
+SQL Single-line Comments
+Single-line comments start with -- and continue to the end of line.
 
+Any text after -- and to the end of the line will be ignored.
+
+The following example uses a single-line comment as an explanation:
 
 
 
