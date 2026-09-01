@@ -1239,7 +1239,14 @@ SELECT * FROM Customers
 WHERE Country = 'Germany';
 The following example uses a single-line comment to comment away the end of a line:
 
+Example
+SELECT * FROM Customers -- WHERE City='Berlin';
 
+The following example uses a single-line comment to temporarily prevent execution of an SQL statement:
+
+Example
+-- SELECT * FROM Customers;
+SELECT * FROM Products;
 
 
 
