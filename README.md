@@ -1219,7 +1219,12 @@ SQL supports single-line comments --, and multi-line comments /* */.
 
 Note: Comments are not supported in Microsoft Access databases.
 
+SQL Single-line Comments
+Single-line comments start with -- and continue to the end of line.
 
+Any text after -- and to the end of the line will be ignored.
+
+The following example uses a single-line comment as an explanation:
 
 
 
