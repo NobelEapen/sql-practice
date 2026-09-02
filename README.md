@@ -1302,7 +1302,14 @@ Operator	Description
 /	        Division	
 %	        Modulus
 
-
+SQL Comparison Operators
+Operator	Description	
+=	          Equal to	
+>	          Greater than	
+<	          Less than	
+>=	        Greater than or equal to	
+<=	        Less than or equal to	
+<>	        Not equal to
 
 
 
