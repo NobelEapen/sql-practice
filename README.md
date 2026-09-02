@@ -1294,7 +1294,13 @@ Compound operators
 Bitwise operators
 Logical operators
 
-
+SQL Arithmetic Operators
+Operator	Description
++	        Addition	
+-	        Subtraction	
+*	        Multiplication	
+/	        Division	
+%	        Modulus
 
 
 
