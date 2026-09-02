@@ -1311,7 +1311,16 @@ Operator	Description
 <=	        Less than or equal to	
 <>	        Not equal to
 
-
+SQL Compound Operators
+Operator	Description
++=	      Add equals
+-=	      Subtract equals
+*=	      Multiply equals
+/=	      Divide equals
+%=	      Modulo equals
+&=	      Bitwise AND equals
+^=	      Bitwise exclusive equals
+|*=	      Bitwise OR equals
 
 
 
