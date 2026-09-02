@@ -1281,7 +1281,18 @@ OR CustomerName LIKE 'T%'*/ OR CustomerName LIKE 'W%')
 AND Country='USA'
 ORDER BY CustomerName;
 
+SQL Operators
+SQL operators are keywords and symbols used to perform operations with data values.
 
+SQL operators are used in SQL statements like SELECT, WHERE, LIKE, etc.
+
+SQL operators is categorized into the following types:
+
+Arithmetic operators
+Comparison operators
+Compound operators
+Bitwise operators
+Logical operators
 
 
 
