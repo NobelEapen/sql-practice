@@ -1343,7 +1343,10 @@ NOT	           Displays a record if the condition(s) is NOT TRUE
 OR	           TRUE if any of the conditions separated by OR is TRUE	
 SOME	         TRUE if any of the subquery values meet the condition
 
+The SQL **CREATE DATABASE** Statement
+The **CREATE DATABASE** statement is used to create a new SQL database.
 
+Tip: You need administrative privileges to create a new database.
 
 
 
