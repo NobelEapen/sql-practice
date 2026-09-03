@@ -1360,3 +1360,5 @@ Once a database is created, you can check it in the list of databases with the f
 Syntax for SQL Server
 SELECT name FROM sys.databases;
 
+Syntax for MySQL
+SHOW DATABASES;
