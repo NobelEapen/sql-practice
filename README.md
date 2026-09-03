@@ -1354,5 +1354,9 @@ The following SQL statement creates a database called "testDB":
 Example
 CREATE DATABASE testDB;
 
+Show Databases
+Once a database is created, you can check it in the list of databases with the following SQL command:
 
+Syntax for SQL Server
+SELECT name FROM sys.databases;
 
