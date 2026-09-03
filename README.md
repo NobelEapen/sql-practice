@@ -1348,6 +1348,9 @@ The **CREATE DATABASE** statement is used to create a new SQL database.
 
 Tip: You need administrative privileges to create a new database.
 
+Syntax
+CREATE DATABASE database_name;
+
 CREATE DATABASE Example
 The following SQL statement creates a database called "testDB":
 
