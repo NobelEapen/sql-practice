@@ -1372,7 +1372,7 @@ The DROP DATABASE statement is used to permanently delete an existing SQL databa
 Note: Be careful before dropping a database! Dropping a database deletes the database and all its content (tables, views, stored procedures, and data)!
 Syntax
 DROP DATABASE databasename;
-
+Tip: You need administrative privileges to drop a database.
 
 
 
