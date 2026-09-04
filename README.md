@@ -1374,6 +1374,10 @@ Syntax
 DROP DATABASE databasename;
 Tip: You need administrative privileges to drop a database.
 
+DROP DATABASE Example
+The following SQL statement drops an existing database named "testDB":
 
+Example
+DROP DATABASE testDB;
 
 
