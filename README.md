@@ -1386,3 +1386,13 @@ The **BACKUP DATABASE** Statement
 The BACKUP DATABASE statement is used in SQL Server to create a full backup of an existing SQL database.
 
 Syntax
+BACKUP DATABASE databasename
+TO DISK = 'filepath';
+
+
+
+
+
+
+
+
