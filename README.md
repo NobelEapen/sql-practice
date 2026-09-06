@@ -1416,6 +1416,8 @@ BACKUP DATABASE testDB
 TO DISK = 'D:\backups\testDB.bak'
 WITH DIFFERENTIAL;
 
+Tip: A differential backup reduces the backup time (since only the changes are backed up).
+
 
 
 
