@@ -1408,7 +1408,13 @@ BACKUP DATABASE databasename
 TO DISK = 'filepath'
 WITH DIFFERENTIAL;
 
+BACKUP WITH DIFFERENTIAL Example
+The following SQL creates a differential backup of the database "testDB":
 
+Example
+BACKUP DATABASE testDB
+TO DISK = 'D:\backups\testDB.bak'
+WITH DIFFERENTIAL;
 
 
 
