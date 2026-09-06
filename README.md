@@ -1389,7 +1389,12 @@ Syntax
 BACKUP DATABASE databasename
 TO DISK = 'filepath';
 
+BACKUP DATABASE Example
+The following SQL creates a full backup of the existing database "testDB" to the D drive:
 
+ExampleGet your own SQL Server
+BACKUP DATABASE testDB
+TO DISK = 'D:\backups\testDB.bak';
 
 
 
