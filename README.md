@@ -1398,7 +1398,15 @@ TO DISK = 'D:\backups\testDB.bak';
 
 Tip: Always place the backup database in a different drive than the original database! If you get a disk crash, you will not lose your backup file along with the database.
 
+The BACKUP WITH DIFFERENTIAL Statement
+A differential backup only captures the data that has changed since the last full backup.
 
+A differential backup requires at least one prior full backup!
+
+Syntax
+BACKUP DATABASE databasename
+TO DISK = 'filepath'
+WITH DIFFERENTIAL;
 
 
 
