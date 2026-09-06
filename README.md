@@ -1382,4 +1382,7 @@ DROP DATABASE testDB;
 
 Tip: Once a database is dropped, you can check that it is removed from the list of databases with: SHOW DATABASES; (MySQL) or SELECT name FROM sys.databases; (SQL Server).
 
+The **BACKUP DATABASE** Statement
+The BACKUP DATABASE statement is used in SQL Server to create a full backup of an existing SQL database.
 
+Syntax
