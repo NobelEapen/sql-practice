@@ -1396,6 +1396,13 @@ ExampleGet your own SQL Server
 BACKUP DATABASE testDB
 TO DISK = 'D:\backups\testDB.bak';
 
+Tip: Always place the backup database in a different drive than the original database! If you get a disk crash, you will not lose your backup file along with the database.
+
+
+
+
+
+
 
 
 
