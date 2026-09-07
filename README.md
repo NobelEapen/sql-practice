@@ -1436,5 +1436,15 @@ The datatype parameter specifies the data type of each column (e.g. varchar, int
 
 The constraint parameter is optional, and specifies rules for data integrity (e.g. primary key, not null, etc.).
 
+CREATE TABLE Example
+The following example creates a table named "Persons" with five columns:
 
+Example
+CREATE TABLE Persons (
+  PersonID int PRIMARY KEY,
+  LastName varchar(255) NOT NULL,
+  FirstName varchar(255),
+  Address varchar(255),
+  City varchar(255)
+);
 
