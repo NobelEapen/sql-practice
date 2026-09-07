@@ -1421,7 +1421,20 @@ Tip: A differential backup reduces the backup time (since only the changes are b
 The SQL **CREATE TABLE** Statement
 The CREATE TABLE statement is used to create a new table in a database.
 
+Syntax
+CREATE TABLE table_name (
+  column1 datatype constraint,
+  column2 datatype constraint,
+  column3 datatype constraint,
+  ....
+);
+The table_name parameter specifies the name of the new table.
 
+The column1, column2, ... parameters specify the names of the columns within the table.
+
+The datatype parameter specifies the data type of each column (e.g. varchar, int, date, etc.).
+
+The constraint parameter is optional, and specifies rules for data integrity (e.g. primary key, not null, etc.).
 
 
 
