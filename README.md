@@ -1418,7 +1418,8 @@ WITH DIFFERENTIAL;
 
 Tip: A differential backup reduces the backup time (since only the changes are backed up).
 
-
+The SQL **CREATE TABLE** Statement
+The CREATE TABLE statement is used to create a new table in a database.
 
 
 
