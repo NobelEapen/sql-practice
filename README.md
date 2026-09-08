@@ -1465,7 +1465,12 @@ SELECT column1, column2,...
 FROM existing_table
 WHERE ....;
 
+The following SQL creates a new table called "GermanCustomers" (which is a copy of the "Customers" table): 
 
+Example
+CREATE TABLE GermanCustomers AS
+SELECT * FROM Customers
+WHERE Country = 'Germany';
 
 
 
