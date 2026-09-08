@@ -1448,3 +1448,7 @@ CREATE TABLE Persons (
   City varchar(255)
 );
 
+Example Explained:
+PersonID - This column is of type integer (int). This is also the PRIMARY KEY field, that uniquely identifies each row.
+LastName - This column is a variable-length character string with a maximum length of 255 characters (varchar(255)). NOT NULL specifies that this column cannot be empty.
+FirstName, Address, City - These columns are also variable-length character strings with a maximum length of 255 characters (varchar(255)). These columns allow NULL values by default.
