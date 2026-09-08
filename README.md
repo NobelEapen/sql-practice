@@ -1454,7 +1454,16 @@ LastName - This column is a variable-length character string with a maximum leng
 FirstName, Address, City - These columns are also variable-length character strings with a maximum length of 255 characters (varchar(255)). These columns allow NULL values by default.
 Tip: The empty "Persons" table can now be filled with data, with the SQL INSERT INTO statement.
 
+Create New Table From Existing Table
+The CREATE TABLE statement can also be used to create a new table that copies some/all data from an existing table.
 
+If you create a new table from an existing table, the new table will be filled with the values from the existing table.
+
+Syntax
+CREATE TABLE new_table AS
+SELECT column1, column2,...
+FROM existing_table
+WHERE ....;
 
 
 
