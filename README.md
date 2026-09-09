@@ -1472,7 +1472,10 @@ CREATE TABLE GermanCustomers AS
 SELECT * FROM Customers
 WHERE Country = 'Germany';
 
+The SQL **DROP TABLE** Statement
+The DROP TABLE statement is used to permanently delete an existing table in a database.
 
+Note: Be careful before dropping a table! Dropping a table deletes the entire table and all its content!
 
 
 
