@@ -1482,7 +1482,11 @@ To prevent an error from occur (if the table does not exists), it is a good prac
 DROP TABLE IF EXISTS table_name;
 Note: In most databases you cannot drop a table that is referenced by a foreign key constraint in another table. To solve this, you must remove the foreign key constraint or drop the dependent table.
 
+DROP TABLE Example
+The following SQL statement drops the "Shippers" table:
 
+Example
+DROP TABLE IF EXISTS Shippers;
 
 
 
