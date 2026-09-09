@@ -1488,7 +1488,11 @@ The following SQL statement drops the "Shippers" table:
 Example
 DROP TABLE IF EXISTS Shippers;
 
+SQL TRUNCATE TABLE
+The TRUNCATE TABLE statement is used to delete all the records in a table, but it keeps the table structure, columns and constraints.
 
+Syntax
+TRUNCATE TABLE table_name;
 
 
 
