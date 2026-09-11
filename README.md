@@ -1527,5 +1527,9 @@ Syntax
 ALTER TABLE table_name
 DROP COLUMN column_name;
 
+The following SQL deletes the "Email" column from the "Customers" table:
 
+Example
+ALTER TABLE Customers
+DROP COLUMN Email;
 
