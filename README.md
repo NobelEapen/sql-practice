@@ -1494,7 +1494,19 @@ The TRUNCATE TABLE statement is used to delete all the records in a table, but i
 Syntax
 TRUNCATE TABLE table_name;
 
+SQL **ALTER TABLE** Statement
+The ALTER TABLE statement is used to add, delete, or modify columns in an existing table.
 
+The ALTER TABLE statement is also used to add and drop various constraints on an existing table.
+
+Common ALTER TABLE operations are:
+
+Add column - Adds a new column to a table
+Drop column - Deletes a column in a table
+Rename column - Renames a column
+Modify column - Changes the data type, size, or constraints of a column
+Add constraint - Adds a new constraint
+Rename table - Renames a table
 
 
 
