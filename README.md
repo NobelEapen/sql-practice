@@ -1508,7 +1508,17 @@ Modify column - Changes the data type, size, or constraints of a column
 Add constraint - Adds a new constraint
 Rename table - Renames a table
 
+ALTER TABLE - ADD Column
+To add a column in a table, use the following syntax:
 
+Syntax
+ALTER TABLE table_name
+ADD column_name datatype;
+The following SQL adds an "Email" column to the "Customers" table:
+
+ExampleGet your own SQL Server
+ALTER TABLE Customers
+ADD Email varchar(255);
 
 
 
