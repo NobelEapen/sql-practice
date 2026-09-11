@@ -1520,7 +1520,7 @@ ExampleGet your own SQL Server
 ALTER TABLE Customers
 ADD Email varchar(255);
 
-
+ALTER TABLE - DROP COLUMN
 
 
 
