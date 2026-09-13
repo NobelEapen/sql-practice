@@ -1544,4 +1544,9 @@ To rename a column in a table in SQL Server, use the following syntax:
 Syntax for SQL Server:
 EXEC sp_rename 'table_name.old_name', 'new_name', 'COLUMN';
 
+ALTER TABLE - MODIFY Datatype
+To modify the data type, size or constraints of a column in a table, use the following syntax:
 
+Syntax for SQL Server / MS Access:
+ALTER TABLE table_name
+ALTER COLUMN column_name new_datatype constraint;
