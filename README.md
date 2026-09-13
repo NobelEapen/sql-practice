@@ -1555,4 +1555,8 @@ Syntax for MySQL / Oracle:
 ALTER TABLE table_name
 MODIFY column_name new_datatype constraint;
 
+The following SQL modifies the size of the "Email" column to varchar(100), and we also add a NOT NULL constraint:
 
+Example
+ALTER TABLE Customers
+MODIFY Email varchar(100) NOT NULL;
