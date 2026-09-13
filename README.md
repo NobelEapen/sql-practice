@@ -1533,3 +1533,7 @@ Example
 ALTER TABLE Customers
 DROP COLUMN Email;
 
+ALTER TABLE - RENAME COLUMN
+To rename a column in a table, use the following syntax:
+
+Syntax
