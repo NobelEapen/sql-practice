@@ -1550,3 +1550,9 @@ To modify the data type, size or constraints of a column in a table, use the fol
 Syntax for SQL Server / MS Access:
 ALTER TABLE table_name
 ALTER COLUMN column_name new_datatype constraint;
+
+Syntax for MySQL / Oracle:
+ALTER TABLE table_name
+MODIFY column_name new_datatype constraint;
+
+
