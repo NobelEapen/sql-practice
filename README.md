@@ -1560,3 +1560,8 @@ The following SQL modifies the size of the "Email" column to varchar(100), and w
 Example
 ALTER TABLE Customers
 MODIFY Email varchar(100) NOT NULL;
+
+ALTER TABLE - ADD CONSTRAINT
+To add a constraint to an existing table, use the following syntax:
+
+
