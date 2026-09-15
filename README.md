@@ -1563,5 +1563,7 @@ MODIFY Email varchar(100) NOT NULL;
 
 ALTER TABLE - ADD CONSTRAINT
 To add a constraint to an existing table, use the following syntax:
-
+Syntax
+ALTER TABLE table_name
+ADD CONSTRAINT constraint_name constraint_definition;
 
