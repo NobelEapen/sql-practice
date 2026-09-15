@@ -1577,7 +1577,9 @@ ADD CONSTRAINT CHK_Age CHECK (Age >= 18);
 ALTER TABLE - Rename table
 To rename a table, use the following syntax:
 
-
+Syntax
+ALTER TABLE table_name
+RENAME TO new_table_name;
 
 
 
