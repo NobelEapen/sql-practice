@@ -1581,7 +1581,11 @@ Syntax
 ALTER TABLE table_name
 RENAME TO new_table_name;
 
+The following SQL renames the "Customers" table to "Clients":
 
+Example
+ALTER TABLE Customers
+RENAME TO Clients;
 
 
 
