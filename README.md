@@ -1574,7 +1574,8 @@ Example
 ALTER TABLE Members
 ADD CONSTRAINT CHK_Age CHECK (Age >= 18);
 
-
+ALTER TABLE - Rename table
+To rename a table, use the following syntax:
 
 
 
