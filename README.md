@@ -1603,6 +1603,12 @@ ADD DateOfBirth date;
 
 Notice that the new column, "DateOfBirth", is of type date and is going to hold a date. The data type specifies what type of data the column can hold.
 
+The "Persons" table will now look like this:
+
+ID	LastName	FirstName	Address	City	DateOfBirth
+1	Hansen	Ola	Timoteivn 10	Sandnes	 
+2	Svendson	Tove	Borgvn 23	Sandnes	 
+3	Pettersen	Kari	Storgt 20	Stavanger	 
 
 
 
