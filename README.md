@@ -1587,6 +1587,15 @@ Example
 ALTER TABLE Customers
 RENAME TO Clients;
 
+QL ALTER TABLE Example
+Assume we have a "Persons" table, that looks like this:
 
+ID	LastName	FirstName	Address	City
+1	Hansen	Ola	Timoteivn 10	Sandnes
+2	Svendson	Tove	Borgvn 23	Sandnes
+3	Pettersen	Kari	Storgt 20	Stavanger
+Now we want to add a column named "DateOfBirth" in the "Persons" table.
+
+We use the following SQL statement:
 
 
