@@ -1601,3 +1601,14 @@ Example
 ALTER TABLE Persons
 ADD DateOfBirth date;
 
+Notice that the new column, "DateOfBirth", is of type date and is going to hold a date. The data type specifies what type of data the column can hold.
+
+
+
+
+
+
+
+
+
+
