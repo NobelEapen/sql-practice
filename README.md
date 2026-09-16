@@ -1597,5 +1597,7 @@ ID	LastName	FirstName	Address	City
 Now we want to add a column named "DateOfBirth" in the "Persons" table.
 
 We use the following SQL statement:
-
+Example
+ALTER TABLE Persons
+ADD DateOfBirth date;
 
