@@ -1623,7 +1623,9 @@ DROP COLUMN Example
 Next, we want to delete the column named "DateOfBirth" in the "Persons" table.
 
 We use the following SQL statement:
-
+Example
+ALTER TABLE Persons
+DROP COLUMN DateOfBirth;
 
 
 
