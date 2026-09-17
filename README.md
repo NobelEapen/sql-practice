@@ -1610,7 +1610,10 @@ ID	LastName	FirstName	Address	City	DateOfBirth
 2	Svendson	Tove	Borgvn 23	Sandnes	 
 3	Pettersen	Kari	Storgt 20	Stavanger	 
 
+Change Data Type Example
+Now we want to change the data type of the column named "DateOfBirth" in the "Persons" table.
 
+We use the following SQL statement:
 
 
 
