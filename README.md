@@ -1619,7 +1619,10 @@ ALTER TABLE Persons
 ALTER COLUMN DateOfBirth year;
 Notice that the "DateOfBirth" column is now of type year and is going to hold a year in a two- or four-digit format.
 
+DROP COLUMN Example
+Next, we want to delete the column named "DateOfBirth" in the "Persons" table.
 
+We use the following SQL statement:
 
 
 
