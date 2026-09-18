@@ -1637,7 +1637,13 @@ Constraints can be specified in two ways:
 When a table is created (through the CREATE TABLE statement)
 After a table is created (through the ALTER TABLE statement)
 
+SQL Constraint Types
+The following constraints are commonly used in SQL:
 
+NOT NULL - Ensures that a column cannot have a NULL value
+UNIQUE - Ensures that all values in a column are unique
+PRIMARY KEY - Uniquely identifies each row in a table (a combination of a NOT NULL and UNIQUE)
+FOREIGN KEY - Establishes a link between data in two tables, and prevents action that will destroy the link between them
 
 
 
