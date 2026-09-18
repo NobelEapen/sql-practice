@@ -1627,7 +1627,10 @@ Example
 ALTER TABLE Persons
 DROP COLUMN DateOfBirth;
 
+SQL Constraints
+SQL constraints are rules for data in a table.
 
+Constraints are used to prevent insertion of invalid data in a table, and ensures the accuracy and reliability of the data in the table. If there is any violation between the constraint and the data action, the action is aborted.
 
 
 
