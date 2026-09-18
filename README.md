@@ -1644,7 +1644,9 @@ NOT NULL - Ensures that a column cannot have a NULL value
 UNIQUE - Ensures that all values in a column are unique
 PRIMARY KEY - Uniquely identifies each row in a table (a combination of a NOT NULL and UNIQUE)
 FOREIGN KEY - Establishes a link between data in two tables, and prevents action that will destroy the link between them
-
+CHECK - Ensures that the values in a column satisfies a specific condition
+DEFAULT - Sets a default value for a column if no value is specified
+CREATE INDEX - Creates indexes on columns to retrieve data from the database faster
 
 
 
