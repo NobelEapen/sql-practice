@@ -1632,5 +1632,28 @@ SQL constraints are rules for data in a table.
 
 Constraints are used to prevent insertion of invalid data in a table, and ensures the accuracy and reliability of the data in the table. If there is any violation between the constraint and the data action, the action is aborted.
 
+Constraints can be specified in two ways:
+
+When a table is created (through the CREATE TABLE statement)
+After a table is created (through the ALTER TABLE statement)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
