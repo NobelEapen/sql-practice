@@ -1653,7 +1653,10 @@ The NOT NULL constraint enforces a column to NOT accept NULL values. This enforc
 
 By default, a column can hold NULL values.
 
+NOT NULL on CREATE TABLE
+To define a NOT NULL constraint when creating a table, add NOT NULL after the data type of the column name.
 
+The following SQL creates a "Persons" table, and ensures that the "ID", "LastName", and "FirstName" columns cannot accept NULL values:
 
 
 
