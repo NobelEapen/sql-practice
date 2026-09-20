@@ -1658,7 +1658,13 @@ To define a NOT NULL constraint when creating a table, add NOT NULL after the da
 
 The following SQL creates a "Persons" table, and ensures that the "ID", "LastName", and "FirstName" columns cannot accept NULL values:
 
-
+Example
+CREATE TABLE Persons (
+    ID int NOT NULL,
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255) NOT NULL,
+    Age int
+);
 
 
 
