@@ -1648,7 +1648,8 @@ CHECK - Ensures that the values in a column satisfies a specific condition
 DEFAULT - Sets a default value for a column if no value is specified
 CREATE INDEX - Creates indexes on columns to retrieve data from the database faster
 
-
+SQL **NOT NULL** Constraint
+The NOT NULL constraint enforces a column to NOT accept NULL values. This enforces a field to always contain a value, which means that you cannot insert a new record, or update a record without adding a value to this field.
 
 
 
