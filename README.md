@@ -1691,5 +1691,6 @@ ALTER TABLE Persons
 ALTER COLUMN Age int NULL;
 
 Syntax for My SQL:
-
+ALTER TABLE Persons
+MODIFY COLUMN Age int NULL;
 
