@@ -1679,6 +1679,8 @@ Syntax for My SQL:
 ALTER TABLE Persons
 MODIFY COLUMN Age int NOT NULL;
 
-
+Syntax for Oracle 10G+:
+ALTER TABLE Persons
+MODIFY Age int NOT NULL;
 
 
