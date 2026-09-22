@@ -1683,4 +1683,4 @@ Syntax for Oracle 10G+:
 ALTER TABLE Persons
 MODIFY Age int NOT NULL;
 
-
+Remove a NOT NULL Constraint
