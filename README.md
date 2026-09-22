@@ -1694,3 +1694,17 @@ Syntax for My SQL:
 ALTER TABLE Persons
 MODIFY COLUMN Age int NULL;
 
+Synatx for Oracle 10G+:
+ALTER TABLE Persons
+MODIFY Age int NULL;
+
+
+
+
+
+
+
+
+
+
+
