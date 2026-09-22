@@ -1684,3 +1684,12 @@ ALTER TABLE Persons
 MODIFY Age int NOT NULL;
 
 Remove a NOT NULL Constraint
+To remove a NOT NULL constraint from a column (to let the column accept NULL values again), use the following syntax:
+
+Syntax for SQL Server / MS Access:
+ALTER TABLE Persons
+ALTER COLUMN Age int NULL;
+
+
+
+
