@@ -1675,7 +1675,9 @@ Syntax for SQL Server / MS Access:
 ALTER TABLE Persons
 ALTER COLUMN Age int NOT NULL;
 
-
+Syntax for My SQL:
+ALTER TABLE Persons
+MODIFY COLUMN Age int NOT NULL;
 
 
 
