@@ -1690,6 +1690,6 @@ Syntax for SQL Server / MS Access:
 ALTER TABLE Persons
 ALTER COLUMN Age int NULL;
 
-
+Syntax for My SQL:
 
 
