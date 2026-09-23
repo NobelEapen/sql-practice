@@ -1707,7 +1707,12 @@ UNIQUE Constraint on CREATE TABLE
 The following SQL defines a UNIQUE constraint for the "ID" column upon creation of the "Persons" table:
 
 SQL Server / Oracle / MS Access:
-
+CREATE TABLE Persons (
+    ID int NOT NULL UNIQUE,
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255),
+    Age int
+);
 
 
 
