@@ -1698,6 +1698,11 @@ Synatx for Oracle 10G+:
 ALTER TABLE Persons
 MODIFY Age int NULL;
 
+SQL **UNIQUE** Constraint
+The UNIQUE constraint ensures that all values in a column are unique.
+
+
+
 
 
 
