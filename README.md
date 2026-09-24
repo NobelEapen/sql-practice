@@ -1734,7 +1734,8 @@ CREATE TABLE Persons (
     CONSTRAINT UC_Person UNIQUE (ID,LastName)
 );
 
-
+UNIQUE Constraint on ALTER TABLE
+To create a UNIQUE constraint on the "ID" column when the table is already created, use the following SQL syntax:
 
 
 
