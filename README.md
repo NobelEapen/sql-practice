@@ -1743,5 +1743,7 @@ ADD UNIQUE (ID);
 Naming a Unique Constraint
 To name a UNIQUE constraint, and to define a UNIQUE constraint on multiple columns, use the following SQL syntax:
 
+ALTER TABLE Persons
+ADD CONSTRAINT UC_Person UNIQUE (ID,LastName);
 
 
