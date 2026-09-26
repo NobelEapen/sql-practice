@@ -1740,7 +1740,8 @@ To create a UNIQUE constraint on the "ID" column when the table is already creat
 ALTER TABLE Persons
 ADD UNIQUE (ID);
 
-
+Naming a Unique Constraint
+To name a UNIQUE constraint, and to define a UNIQUE constraint on multiple columns, use the following SQL syntax:
 
 
 
