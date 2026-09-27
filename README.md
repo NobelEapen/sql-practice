@@ -1754,7 +1754,8 @@ ALTER TABLE Persons
 DROP INDEX UC_Person;
 
 SQL Server / Oracle / MS Access:
-
+ALTER TABLE Persons
+DROP CONSTRAINT UC_Person;
 
 
 
