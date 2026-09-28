@@ -1749,13 +1749,5 @@ ADD CONSTRAINT UC_Person UNIQUE (ID,LastName);
 Drop a UNIQUE Constraint
 To drop a UNIQUE constraint, use the following SQL:
 
-MySQL:
-ALTER TABLE Persons
-DROP INDEX UC_Person;
-
-SQL Server / Oracle / MS Access:
-ALTER TABLE Persons
-DROP CONSTRAINT UC_Person;
-
 
 
