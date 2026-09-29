@@ -1753,7 +1753,7 @@ MySQL:
 ALTER TABLE Persons
 DROP INDEX UC_Person;
 
-
+SQL Server / Oracle / MS Access:
 
 
 
