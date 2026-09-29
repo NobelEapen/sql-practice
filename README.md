@@ -1757,4 +1757,11 @@ SQL Server / Oracle / MS Access:
 ALTER TABLE Persons
 DROP CONSTRAINT UC_Person;
 
+SQL PRIMARY KEY Constraint
+The PRIMARY KEY constraint uniquely identifies each record in a database table.
+
+
+
+
+
 
