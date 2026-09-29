@@ -1746,5 +1746,6 @@ To name a UNIQUE constraint, and to define a UNIQUE constraint on multiple colum
 ALTER TABLE Persons
 ADD CONSTRAINT UC_Person UNIQUE (ID,LastName);
 
-
+Drop a UNIQUE Constraint
+To drop a UNIQUE constraint, use the following SQL:
 
