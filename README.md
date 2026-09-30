@@ -1757,7 +1757,7 @@ SQL Server / Oracle / MS Access:
 ALTER TABLE Persons
 DROP CONSTRAINT UC_Person;
 
-SQL PRIMARY KEY Constraint
+SQL **PRIMARY KEY** Constraint
 The PRIMARY KEY constraint uniquely identifies each record in a database table.
 
 A PRIMARY KEY constraint ensures unique values, and cannot contain NULL values (it is a combination of both a UNIQUE constraint and a NOT NULL constraint).
@@ -1766,6 +1766,7 @@ A table can have only ONE PRIMARY KEY constraint. The primary key can either be 
 
 Tip: The primary key is the target for FOREIGN KEY constraints in other tables (which enforces referential integrity between data in two tables).
 
-
+PRIMARY KEY on CREATE TABLE
+The following SQL creates a PRIMARY KEY on the "ID" column upon creation of the "Persons" table:
 
 
