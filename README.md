@@ -1776,7 +1776,8 @@ CREATE TABLE Persons (
     Age int
 );
 
-
+PRIMARY KEY on Multiple Columns
+To define an un-named PRIMARY KEY constraint on multiple columns, use the following SQL syntax:
 
 
 
