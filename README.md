@@ -1787,6 +1787,8 @@ CREATE TABLE Persons (
     PRIMARY KEY (ID, LastName)
 );
 
+Note: In the example above, the PRIMARY KEY value is made up of two columns (ID + LastName).
+
 
 
 
