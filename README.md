@@ -1769,4 +1769,27 @@ Tip: The primary key is the target for FOREIGN KEY constraints in other tables (
 PRIMARY KEY on CREATE TABLE
 The following SQL creates a PRIMARY KEY on the "ID" column upon creation of the "Persons" table:
 
+CREATE TABLE Persons (
+    ID int PRIMARY KEY,
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255),
+    Age int
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
