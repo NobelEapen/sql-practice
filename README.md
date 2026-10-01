@@ -1793,7 +1793,10 @@ To define a named PRIMARY KEY constraint on multiple columns, use the following 
 CREATE TABLE Persons (
     ID int,
     LastName varchar(255),
-
+    FirstName varchar(255),
+    Age int,
+    CONSTRAINT PK_Person PRIMARY KEY (ID, LastName)
+);
 
 
 
