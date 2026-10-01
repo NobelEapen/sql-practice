@@ -1789,7 +1789,7 @@ CREATE TABLE Persons (
 
 Note: In the example above, the PRIMARY KEY value is made up of two columns (ID + LastName).
 
-
+To define a named PRIMARY KEY constraint on multiple columns, use the following SQL syntax:
 
 
 
