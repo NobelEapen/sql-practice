@@ -1803,7 +1803,8 @@ Note: In the example above, the PRIMARY KEY is named "PK_Person", and the value 
 PRIMARY KEY on ALTER TABLE
 To create a PRIMARY KEY constraint on the "ID" column when the table already has been created, use the following SQL:
 
-
+ALTER TABLE Persons
+ADD PRIMARY KEY (ID);
 
 
 
