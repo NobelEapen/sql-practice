@@ -1800,7 +1800,8 @@ CREATE TABLE Persons (
 
 Note: In the example above, the PRIMARY KEY is named "PK_Person", and the value is made up of two columns (ID + LastName).
 
-
+PRIMARY KEY on ALTER TABLE
+To create a PRIMARY KEY constraint on the "ID" column when the table already has been created, use the following SQL:
 
 
 
