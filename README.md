@@ -1798,6 +1798,8 @@ CREATE TABLE Persons (
     CONSTRAINT PK_Person PRIMARY KEY (ID, LastName)
 );
 
+Note: In the example above, the PRIMARY KEY is named "PK_Person", and the value is made up of two columns (ID + LastName).
+
 
 
 
