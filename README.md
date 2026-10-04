@@ -1806,6 +1806,7 @@ To create a PRIMARY KEY constraint on the "ID" column when the table already has
 ALTER TABLE Persons
 ADD PRIMARY KEY (ID);
 
+PRIMARY KEY on Multiple Columns
 
 
 
