@@ -1812,6 +1812,6 @@ To define a named PRIMARY KEY constraint on multiple columns, use the following 
 ALTER TABLE Persons
 ADD CONSTRAINT PK_Person PRIMARY KEY (ID, LastName);
 
-
+Note: 
 
 
