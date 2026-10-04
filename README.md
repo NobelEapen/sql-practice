@@ -1807,6 +1807,8 @@ ALTER TABLE Persons
 ADD PRIMARY KEY (ID);
 
 PRIMARY KEY on Multiple Columns
+To define a named PRIMARY KEY constraint on multiple columns, use the following SQL syntax:
+
 
 
 
