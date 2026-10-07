@@ -1821,7 +1821,7 @@ SQL Server / Oracle / MS Access:
 ALTER TABLE Persons
 DROP CONSTRAINT PK_Person;
 
-
+MySQL:
 
 
 
