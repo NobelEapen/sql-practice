@@ -1818,7 +1818,8 @@ Drop a PRIMARY KEY Constraint
 To drop a PRIMARY KEY constraint, use the following SQL:
 
 SQL Server / Oracle / MS Access:
-
+ALTER TABLE Persons
+DROP CONSTRAINT PK_Person;
 
 
 
