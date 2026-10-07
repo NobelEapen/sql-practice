@@ -1825,7 +1825,7 @@ MySQL:
 ALTER TABLE Persons
 DROP PRIMARY KEY;
 
-
+SQL FOREIGN KEY Constraint
 
 
 
