@@ -1815,4 +1815,19 @@ ADD CONSTRAINT PK_Person PRIMARY KEY (ID, LastName);
 Note: When using ALTER TABLE to add a primary key, the primary key column(s) must have been declared with NOT NULL upon creation of the table.
 
 Drop a PRIMARY KEY Constraint
+To drop a PRIMARY KEY constraint, use the following SQL:
+
+SQL Server / Oracle / MS Access:
+
+
+
+
+
+
+
+
+
+
+
+
 
