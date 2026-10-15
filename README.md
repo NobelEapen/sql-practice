@@ -1829,8 +1829,6 @@ SQL **FOREIGN KEY** Constraint
 
 The FOREIGN KEY constraint establishes a link between two tables, and prevents action that will destroy the link between them.
 
-A FOREIGN KEY is a column 
-
 
 
 
