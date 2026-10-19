@@ -1836,11 +1836,16 @@ The FOREIGN KEY constraint prevents invalid data from being inserted into the fo
 The FOREIGN KEY constraint also prevents you from deleting a record in the parent table, if related rows still exist in the child table. 
 
 Assume we have two tables:
+
 Persons Table
+
 PersonID 	LastName 	FirstName 	Age
 1 	Hansen 	Ola 	30
 2 	Svendson 	Tove 	23
+
+
 Orders Table
+
 OrderID 	OrderNumber 	PersonID
 3 	22456 	2
 4 	24562 	1
