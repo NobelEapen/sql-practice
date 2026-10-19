@@ -1831,5 +1831,5 @@ The FOREIGN KEY constraint establishes a link between two tables, and prevents a
 A FOREIGN KEY is a column in a table that refers to the PRIMARY KEY in another table.
 
 The table with the foreign key column is called the child table, and the table with the primary key column is called the referenced or parent table.
-
+The FOREIGN KEY constraint prevents invalid data from being inserted into the foreign key column (in the child table), because the value has to exist in the parent table.
 
