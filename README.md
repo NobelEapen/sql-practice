@@ -1830,6 +1830,6 @@ SQL **FOREIGN KEY** Constraint
 The FOREIGN KEY constraint establishes a link between two tables, and prevents action that will destroy the link between them.
 A FOREIGN KEY is a column in a table that refers to the PRIMARY KEY in another table.
 
-
+The table with the foreign key column is called the child table, and the table with the primary key column is called the referenced or parent table.
 
 
