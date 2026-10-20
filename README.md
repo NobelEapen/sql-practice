@@ -1859,7 +1859,7 @@ Here we see that the "PersonID" column in the "Orders" table points to the "Pers
 
 The "PersonID" column in the "Persons" table is the PRIMARY KEY in the "Persons" table.
 
-
+The "PersonID" column in the "Orders" table is the FOREIGN KEY in the "Orders" table.
 
 
 
