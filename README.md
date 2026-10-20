@@ -1855,7 +1855,7 @@ OrderID 	OrderNumber 	PersonID
 4 	24562 	1
 
 
-
+Here we see that the "PersonID" column in the "Orders" table points to the "PersonID" column in the "Persons" table.
 
 
 
