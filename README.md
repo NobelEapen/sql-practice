@@ -1857,7 +1857,7 @@ OrderID 	OrderNumber 	PersonID
 
 Here we see that the "PersonID" column in the "Orders" table points to the "PersonID" column in the "Persons" table.
 
-
+The "PersonID" column in the "Persons" table is the PRIMARY KEY in the "Persons" table.
 
 
 
