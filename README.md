@@ -1876,7 +1876,7 @@ CREATE TABLE Orders (
 
 FOREIGN KEY on ALTER TABLE
 
-
+To create a FOREIGN KEY constraint on the "PersonID" column after the "Orders" table is created, use the following SQL:
 
 
 
