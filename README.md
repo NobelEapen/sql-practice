@@ -1863,6 +1863,40 @@ The "PersonID" column in the "Orders" table is the FOREIGN KEY in the "Orders" t
 
 FOREIGN KEY on CREATE TABLE
 
+The following SQL creates a FOREIGN KEY constraint on the "PersonID" column upon creation of the "Orders" table:
+
+CREATE TABLE Orders (
+    OrderID int PRIMARY KEY,
+    OrderNumber int NOT NULL,
+    PersonID int,
+    CONSTRAINT fk_Person
+    FOREIGN KEY (PersonID)
+    REFERENCES Persons(PersonID)
+); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
