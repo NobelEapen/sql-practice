@@ -1861,7 +1861,7 @@ The "PersonID" column in the "Persons" table is the PRIMARY KEY in the "Persons"
 
 The "PersonID" column in the "Orders" table is the FOREIGN KEY in the "Orders" table.
 
-
+FOREIGN KEY on CREATE TABLE
 
 
 
