@@ -1883,7 +1883,7 @@ ADD CONSTRAINT fk_Person
 FOREIGN KEY (PersonID)
 REFERENCES Persons(PersonID); 
 
-
+Drop a FOREIGN KEY Constraint
 
 
 
