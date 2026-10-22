@@ -1888,7 +1888,8 @@ Drop a FOREIGN KEY Constraint
 To drop a FOREIGN KEY constraint, use the following SQL:
 SQL Server / Oracle / MS Access:
 
-
+ALTER TABLE Orders
+DROP CONSTRAINT fk_Person; 
 
 
 
