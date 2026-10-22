@@ -1891,7 +1891,9 @@ SQL Server / Oracle / MS Access:
 ALTER TABLE Orders
 DROP CONSTRAINT fk_Person; 
 
-
+MySQL:
+ALTER TABLE Orders
+DROP FOREIGN KEY fk_Person; 
 
 
 
