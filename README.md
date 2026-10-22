@@ -1885,7 +1885,8 @@ REFERENCES Persons(PersonID);
 
 Drop a FOREIGN KEY Constraint
 
-
+To drop a FOREIGN KEY constraint, use the following SQL:
+SQL Server / Oracle / MS Access:
 
 
 
