@@ -1880,7 +1880,8 @@ To create a FOREIGN KEY constraint on the "PersonID" column after the "Orders" t
 
 ALTER TABLE Orders
 ADD CONSTRAINT fk_Person
-
+FOREIGN KEY (PersonID)
+REFERENCES Persons(PersonID); 
 
 
 
