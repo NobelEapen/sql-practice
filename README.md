@@ -1907,7 +1907,10 @@ The following SQL creates a CHECK constraint on the "Age" column upon creation o
 Here, the CHECK constraint ensures that the "Age" column must have a value of 18, or above:
 CREATE TABLE Persons (
     ID int PRIMARY KEY,
-
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255),
+    Age int CHECK (Age >= 18)
+);
 
 
 
