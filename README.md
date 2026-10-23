@@ -1897,7 +1897,7 @@ DROP FOREIGN KEY fk_Person;
 
 SQL CHECK Constraint
 
-
+The CHECK constraint is used to ensure that the values in a column satisfies a specific condition.
 
 
 
