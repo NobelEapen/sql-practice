@@ -1900,6 +1900,23 @@ SQL CHECK Constraint
 The CHECK constraint is used to ensure that the values in a column satisfies a specific condition.
 The CHECK constraint evaluates the data to TRUE or FALSE. If the data evaluates to TRUE, the operation is ok. If the data evaluates to FALSE, the entire INSERT or UPDATE operation is aborted, and an error is raised.
 
+CHECK Constraint on CREATE TABLE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
