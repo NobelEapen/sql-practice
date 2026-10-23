@@ -1902,7 +1902,7 @@ The CHECK constraint evaluates the data to TRUE or FALSE. If the data evaluates 
 
 CHECK Constraint on CREATE TABLE
 
-
+The following SQL creates a CHECK constraint on the "Age" column upon creation of the "Persons" table.
 
 
 
