@@ -1895,7 +1895,7 @@ MySQL:
 ALTER TABLE Orders
 DROP FOREIGN KEY fk_Person; 
 
-
+SQL CHECK Constraint
 
 
 
