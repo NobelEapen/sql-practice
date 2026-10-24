@@ -1928,31 +1928,3 @@ CREATE TABLE Persons (
 CHECK Constraint on ALTER TABLE
 
 To create a CHECK
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
