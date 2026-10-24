@@ -1925,7 +1925,7 @@ CREATE TABLE Persons (
     CONSTRAINT chk_PersonAge CHECK (Age >= 18 AND City = 'Sandnes')
 ); 
 
-CHECK 
+CHECK Constraint on ALTER TABLE
 
 
 
