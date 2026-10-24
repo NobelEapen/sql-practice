@@ -1912,7 +1912,7 @@ CREATE TABLE Persons (
     Age int CHECK (Age >= 18)
 );
 
-
+Naming a CHECK Constraint
 
 
 
