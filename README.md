@@ -1929,7 +1929,8 @@ CHECK Constraint on ALTER TABLE
 
 To create a CHECK constraint on the "Age" column when the table is already created, use the following SQL:
 
-
+ALTER TABLE Persons
+ADD CHECK (Age >= 18); 
 
 
 
