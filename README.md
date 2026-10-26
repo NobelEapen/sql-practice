@@ -1950,6 +1950,7 @@ To create a CHECK constraint on the "Age" column when the table is already creat
 ALTER TABLE Persons
 ADD CHECK (Age >= 18);
 
+Naming a CHECK Constraint
 
 
 
