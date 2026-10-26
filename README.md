@@ -1937,7 +1937,8 @@ To name a CHECK constraint, and to define a CHECK constraint on multiple columns
 
 CREATE TABLE Persons (
     ID int PRIMARY KEY,
-
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255),
 
 
 
