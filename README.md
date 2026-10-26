@@ -1935,7 +1935,8 @@ ADD CHECK (Age >= 18);
 Naming a CHECK Constraint
 To name a CHECK constraint, and to define a CHECK constraint on multiple columns, use the following SQL syntax:
 
-
+CREATE TABLE Persons (
+    ID int PRIMARY KEY,
 
 
 
