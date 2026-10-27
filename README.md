@@ -1962,6 +1962,7 @@ To drop a CHECK constraint, use the following SQL:
 
 SQL Server / Oracle / MS Access:
 ALTER TABLE Persons
+DROP CONSTRAINT chk_PersonAge;
 
 
 
