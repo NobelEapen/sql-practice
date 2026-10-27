@@ -1957,6 +1957,7 @@ To name a CHECK constraint, and to define a CHECK constraint on multiple columns
 ALTER TABLE Persons
 ADD CONSTRAINT chk_PersonAge CHECK (Age >= 18 AND City = 'Sandnes');
 
+Drop a CHECK Constraint
 
 
 
