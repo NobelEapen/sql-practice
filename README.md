@@ -1955,6 +1955,7 @@ Naming a CHECK Constraint
 To name a CHECK constraint, and to define a CHECK constraint on multiple columns, use the following SQL syntax:
 
 ALTER TABLE Persons
+ADD CONSTRAINT chk_PersonAge CHECK (Age >= 18 AND City = 'Sandnes');
 
 
 
