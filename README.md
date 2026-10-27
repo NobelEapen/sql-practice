@@ -1958,6 +1958,7 @@ ALTER TABLE Persons
 ADD CONSTRAINT chk_PersonAge CHECK (Age >= 18 AND City = 'Sandnes');
 
 Drop a CHECK Constraint
+To drop a CHECK constraint, use the following SQL:
 
 
 
