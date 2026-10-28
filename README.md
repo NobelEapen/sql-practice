@@ -1966,6 +1966,20 @@ DROP CONSTRAINT chk_PersonAge;
 
 MySQL:
 ALTER TABLE Persons
+DROP CHECK chk_PersonAge;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
