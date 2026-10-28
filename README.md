@@ -1964,6 +1964,7 @@ SQL Server / Oracle / MS Access:
 ALTER TABLE Persons
 DROP CONSTRAINT chk_PersonAge;
 
+MySQL:
 
 
 
