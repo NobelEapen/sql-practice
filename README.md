@@ -1972,7 +1972,7 @@ SQL DEFAULT Constraint
 
 The DEFAULT constraint is used to automatically insert a default value for a column, if no value is specified.
 
-
+The default value will be added to all new records (if no other value is specified).
 
 
 
