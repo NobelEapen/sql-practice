@@ -1970,7 +1970,7 @@ DROP CHECK chk_PersonAge;
 
 SQL DEFAULT Constraint
 
-
+The DEFAULT constraint is used to automatically insert a default value for a column, if no value is specified.
 
 
 
