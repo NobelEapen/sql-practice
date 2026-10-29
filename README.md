@@ -1968,7 +1968,7 @@ MySQL:
 ALTER TABLE Persons
 DROP CHECK chk_PersonAge;
 
-
+SQL DEFAULT Constraint
 
 
 
