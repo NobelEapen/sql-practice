@@ -1974,7 +1974,7 @@ The DEFAULT constraint is used to automatically insert a default value for a col
 
 The default value will be added to all new records (if no other value is specified).
 
-
+DEFAULT Constraint on CREATE TABLE
 
 
 
