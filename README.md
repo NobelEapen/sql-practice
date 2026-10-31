@@ -1988,7 +1988,7 @@ CREATE TABLE Persons (
 
 The DEFAULT constraint can also be used to insert system values, by using functions like CURRENT_DATE() to insert the current date:
 
-
+MySQL:
 
 
 
