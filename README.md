@@ -1992,7 +1992,9 @@ MySQL:
 
 CREATE TABLE Orders (
     ID int PRIMARY KEY,
-
+    OrderNumber int NOT NULL,
+    OrderDate date DEFAULT CURRENT_DATE()
+); 
 
 
 
