@@ -2006,7 +2006,7 @@ CREATE TABLE Orders (
     OrderDate date DEFAULT CAST(GETDATE() AS date)
 ); 
 
-
+DEFAULT 
 
 
 
