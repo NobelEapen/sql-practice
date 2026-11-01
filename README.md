@@ -1996,7 +1996,7 @@ CREATE TABLE Orders (
     OrderDate date DEFAULT CURRENT_DATE()
 ); 
 
-
+SQL Server:
 
 
 
