@@ -2011,7 +2011,7 @@ DEFAULT Constraint on ALTER TABLE
 The following SQL sets a DEFAULT value for the "City" column upon creation of the "Persons" table:
 
 CREATE TABLE Persons (
-
+     ID int PRIMARY KEY,
 
 
 
