@@ -2008,5 +2008,5 @@ CREATE TABLE Orders (
 
 DEFAULT Constraint on ALTER TABLE
 
-
+The following SQL sets a
 
