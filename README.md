@@ -2012,7 +2012,7 @@ The following SQL sets a DEFAULT value for the "City" column upon creation of th
 
 CREATE TABLE Persons (
      ID int PRIMARY KEY,
-
+     LastName varchar(255) NOT NULL,
 
 
 
