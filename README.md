@@ -2015,7 +2015,7 @@ CREATE TABLE Persons (
      LastName varchar(255) NOT NULL,
      FirstName varchar(255),
      Age int,
-
+     City varchar(255) DEFAULT 'Sandnes'
 
 
 
