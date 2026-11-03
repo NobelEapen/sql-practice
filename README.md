@@ -2016,7 +2016,7 @@ CREATE TABLE Persons (
      FirstName varchar(255),
      Age int,
      City varchar(255) DEFAULT 'Sandnes'
-
+ ); 
 
 
 
