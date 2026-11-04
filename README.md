@@ -2018,7 +2018,7 @@ CREATE TABLE Persons (
      City varchar(255) DEFAULT 'Sandnes'
  ); 
 
-The DEFAULT
+The DEFAULT constraint can also be used to insert system values, by using functions like CURRENT_DATE() to insert the current date:
 
 
 
