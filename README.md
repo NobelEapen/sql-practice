@@ -2022,7 +2022,8 @@ The DEFAULT constraint can also be used to insert system values, by using functi
 
 MySQL:
 
-
+CREATE TABLE Orders (
+    ID int PRIMARY KEY,
 
 
 
