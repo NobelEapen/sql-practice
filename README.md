@@ -2018,7 +2018,7 @@ CREATE TABLE Persons (
      City varchar(255) DEFAULT 'Sandnes'
  ); 
 
-
+The DEFAULT
 
 
 
