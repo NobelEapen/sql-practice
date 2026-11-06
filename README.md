@@ -2029,7 +2029,7 @@ CREATE TABLE Orders (
 ); 
 
 SQL Server:
-To achieve the same result
+To achieve the same result in SQL Server
 
 
 
