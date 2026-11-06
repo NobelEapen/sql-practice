@@ -2032,7 +2032,7 @@ SQL Server:
 To achieve the same result in SQL Server use the following SQL (to insert the current date): 
 
  CREATE TABLE Orders (
-
+     ID int PRIMARY KEY,
 
 
 
