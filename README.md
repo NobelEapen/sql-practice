@@ -2034,7 +2034,7 @@ To achieve the same result in SQL Server use the following SQL (to insert the cu
  CREATE TABLE Orders (
      ID int PRIMARY KEY,
      OrderNumber int NOT NULL,
-
+     OrderDate date DEFAULT CAST(GETDATE() AS date)
 
 
 
