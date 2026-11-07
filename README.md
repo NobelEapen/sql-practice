@@ -2037,7 +2037,7 @@ To achieve the same result in SQL Server use the following SQL (to insert the cu
      OrderDate date DEFAULT CAST(GETDATE() AS date)
 ); 
 
-
+DEFAULT 
 
 
 
