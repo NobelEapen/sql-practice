@@ -2041,6 +2041,6 @@ DEFAULT Constraint on ALTER TABLE
 
 To define a DEFAULT constraint on the "City" column when the table is already created, use the following SQL:
 
-
+MySQL:
 
 
