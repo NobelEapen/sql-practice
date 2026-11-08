@@ -2039,7 +2039,7 @@ To achieve the same result in SQL Server use the following SQL (to insert the cu
 
 DEFAULT Constraint on ALTER TABLE
 
-
+To define a DEFAULT
 
 
 
