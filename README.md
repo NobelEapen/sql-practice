@@ -2046,7 +2046,7 @@ MySQL:
 ALTER TABLE Persons
  ALTER City SET DEFAULT 'Sandnes'; 
 
-
+SQL Server:
 
 
 
