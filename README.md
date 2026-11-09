@@ -2044,7 +2044,7 @@ To define a DEFAULT constraint on the "City" column when the table is already cr
 MySQL:
 
 ALTER TABLE Persons
-
+ ALTER City SET DEFAULT 'Sandnes'; 
 
 
 
