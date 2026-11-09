@@ -2048,7 +2048,7 @@ ALTER TABLE Persons
 
 SQL Server:
 
-ALTER 
+ALTER TABLE Persons
 
 
 
