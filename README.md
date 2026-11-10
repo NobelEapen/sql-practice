@@ -2056,7 +2056,7 @@ MS Access:
 ALTER TABLE Persons
 ALTER COLUMN City SET DEFAULT 'Sandnes'; 
 
-
+Oracle:
 
 
 
