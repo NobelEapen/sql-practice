@@ -2049,7 +2049,7 @@ ALTER TABLE Persons
 SQL Server:
 
 ALTER TABLE Persons
-
+ADD CONSTRAINT df_City DEFAULT 'Sandnes' FOR City; 
 
 
 
