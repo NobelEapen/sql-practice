@@ -2053,7 +2053,7 @@ ADD CONSTRAINT df_City DEFAULT 'Sandnes' FOR City;
 
 MS Access:
 
-
+ALTER TABLE Persons
 
 
 
