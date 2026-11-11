@@ -2061,7 +2061,7 @@ Oracle:
 ALTER TABLE Persons
 MODIFY City DEFAULT 'Sandnes'; 
 
-Drop 
+Drop a DEFAULT Constraint
 
 
 
