@@ -2059,6 +2059,6 @@ ALTER COLUMN City SET DEFAULT 'Sandnes';
 Oracle:
 
 ALTER TABLE Persons
-
+MODIFY
 
 
