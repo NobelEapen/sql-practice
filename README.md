@@ -2063,7 +2063,7 @@ MODIFY City DEFAULT 'Sandnes';
 
 Drop a DEFAULT Constraint
 
-To drop
+To drop a DEFAULT
 
 
 
