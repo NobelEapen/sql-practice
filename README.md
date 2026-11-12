@@ -2067,7 +2067,8 @@ To drop a DEFAULT constraint, use the following SQL:
 
 MySQL:
 
-
+ALTER TABLE Persons
+ALTER City DROP DEFAULT; 
 
 
 
