@@ -2065,7 +2065,7 @@ Drop a DEFAULT Constraint
 
 To drop a DEFAULT constraint, use the following SQL:
 
-
+MySQL:
 
 
 
