@@ -2072,7 +2072,7 @@ ALTER City DROP DEFAULT;
 
 SQL Server:
 
-
+ALTER TABLE Persons
 
 
 
