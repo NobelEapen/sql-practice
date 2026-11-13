@@ -2077,7 +2077,7 @@ DROP CONSTRAINT df_City;
 
 MS Access:
 
-
+ ALTER TABLE Persons
 
 
 
