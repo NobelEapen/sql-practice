@@ -2070,7 +2070,7 @@ MySQL:
 ALTER TABLE Persons
 ALTER City DROP DEFAULT; 
 
-
+SQL Server:
 
 
 
