@@ -2082,7 +2082,7 @@ ALTER COLUMN City DROP DEFAULT;
 
 Oracle:
 
-
+ALTER 
 
 
 
