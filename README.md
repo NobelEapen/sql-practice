@@ -2080,4 +2080,25 @@ MS Access:
 ALTER TABLE Persons
 ALTER COLUMN City DROP DEFAULT;
 
+Oracle:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
