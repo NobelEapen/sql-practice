@@ -2085,9 +2085,9 @@ Oracle:
 ALTER TABLE Persons
 MODIFY (City DEFAULT NULL);
 
-SQL CREATE INDEX Statement
+SQL **CREATE INDEX** Statement
 
-The 
+The CREATE INDEX statement is used to create indexes on tables in databases, to speed up data retrieval.
 
 
 
