@@ -2087,7 +2087,7 @@ MODIFY (City DEFAULT NULL);
 
 SQL CREATE INDEX Statement
 
-
+The 
 
 
 
