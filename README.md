@@ -2085,7 +2085,7 @@ Oracle:
 ALTER TABLE Persons
 MODIFY (City DEFAULT NULL);
 
-
+SQL CREATE INDEX Statement
 
 
 
