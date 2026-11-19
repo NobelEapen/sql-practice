@@ -2093,7 +2093,7 @@ The users cannot see the indexes, they are just used to speed up searches/querie
 
 **Note**: Updating tables with indexes are more time-consuming than tables without indexes (because the indexes must also be updated). So, only create indexes on columns that are frequently searched against.
 
-
+Types 
 
 
 
