@@ -2089,7 +2089,7 @@ SQL **CREATE INDEX** Statement
 
 The CREATE INDEX statement is used to create indexes on tables in databases, to speed up data retrieval.
 
-The users cannot see the indexes
+The users cannot see the indexes, they are just used 
 
 
 
