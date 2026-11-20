@@ -2097,7 +2097,7 @@ The users cannot see the indexes, they are just used to speed up searches/querie
 
 There are two types of indexes:
 
-CREATE INDEX -
+CREATE INDEX - Creates a non-unique index (duplicate values are allowed)
 
 
 
