@@ -2095,7 +2095,7 @@ The users cannot see the indexes, they are just used to speed up searches/querie
 
 **Types of Indexes: Non-unique and Unique**
 
-
+There are two types of indexes:
 
 
 
