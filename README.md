@@ -2099,6 +2099,6 @@ There are two types of indexes:
 
 CREATE INDEX - Creates a non-unique index (duplicate values are allowed)
 
-CREATE UNIQUE INDEX -
+CREATE UNIQUE INDEX - Creates a unique index (duplicate values are not allowed)
 
 
