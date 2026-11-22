@@ -2101,4 +2101,32 @@ CREATE INDEX - Creates a non-unique index (duplicate values are allowed)
 
 CREATE UNIQUE INDEX - Creates a unique index (duplicate values are not allowed)
 
-CREATE 
+CREATE INDEX Syntax
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
