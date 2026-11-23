@@ -2106,7 +2106,7 @@ CREATE INDEX Syntax
 CREATE INDEX index_name
 ON table_name (column1, column2, ...); 
 
-CREATE UNIQUE 
+CREATE UNIQUE INDEX Syntax
 
 
 
