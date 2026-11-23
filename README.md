@@ -2103,10 +2103,10 @@ CREATE UNIQUE INDEX - Creates a unique index (duplicate values are not allowed)
 
 CREATE INDEX Syntax
 
- CREATE INDEX index_name
- ON table_name (column1, column2, ...); 
+CREATE INDEX index_name
+ON table_name (column1, column2, ...); 
 
-
+CREATE 
 
 
 
