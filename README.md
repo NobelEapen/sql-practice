@@ -2109,7 +2109,7 @@ ON table_name (column1, column2, ...);
 CREATE UNIQUE INDEX Syntax
 
 CREATE UNIQUE INDEX index_name
-
+ON
 
 
 
