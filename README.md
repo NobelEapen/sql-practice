@@ -2111,7 +2111,7 @@ CREATE UNIQUE INDEX Syntax
 CREATE UNIQUE INDEX index_name
 ON table_name (column1, column2, ...); 
 
-Note: The syntax for creating indexes varies among 
+Note: The syntax for creating indexes varies among different 
 
 
 
