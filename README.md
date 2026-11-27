@@ -2113,7 +2113,7 @@ ON table_name (column1, column2, ...);
 
 Note: The syntax for creating indexes varies among different databases. Check the syntax for creating indexes in your database!
 
-CREATE 
+CREATE INDEX 
 
 
 
