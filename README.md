@@ -2115,7 +2115,7 @@ Note: The syntax for creating indexes varies among different databases. Check th
 
 CREATE INDEX Example
 
-
+The following SQL
 
 
 
