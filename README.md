@@ -2117,7 +2117,7 @@ CREATE INDEX Example
 
 The following SQL creates a non-unique index named "idx_lastname" on the "LastName" column in the "Persons" table:
 
-
+CREATE 
 
 
 
